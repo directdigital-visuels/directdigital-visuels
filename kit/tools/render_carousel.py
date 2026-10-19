@@ -33,7 +33,7 @@ CHECK = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ff
 def top(dark, n, tot):
     b = (f'<span class="tile"><img src="file://{MARK}"></span>' if dark
          else f'<span class="bare"><img src="file://{MARK}"></span>')
-    c = f'<div class="count">{n}/{tot}</div>' if tot > 1 else ''
+    c = ''  # pas de compteur de pages : Instagram affiche déjà sa pagination, et il entrait en conflit avec les numéros de tâches
     return f'<div class="top"><div class="brand">{b}</div>{c}</div>'
 
 
