@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Automatise ton business avec l'IA</title>
+<style>
+@page { size: 150mm 187.5mm; margin: 0; }
+:root { --blue:#2563FF; --navy:#10172A; --ink:#1B2236; --muted:#5B6478; --soft:#EEF3FF; --line:#DCE4F7; --violet:#7C5CFF; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 150mm; height: 187.5mm; position: relative; overflow: hidden; page-break-after: always; padding: 13mm 12mm 14mm; background: #fff; }
+.page:last-child { page-break-after: auto; }
+.dark { background: var(--navy); color: #fff; }
+h1, h2, h3, .num { font-family: 'Poppins', sans-serif; }
+h2 { font-size: 21pt; line-height: 1.12; font-weight: 700; color: var(--navy); margin: 3mm 0 4mm; letter-spacing: -0.2pt; }
+.dark h2 { color: #fff; }
+h3 { font-size: 11.5pt; font-weight: 600; color: var(--navy); margin: 4.5mm 0 1.8mm; }
+p, li { font-size: 10.2pt; line-height: 1.5; }
+p + p { margin-top: 2.2mm; }
+.kicker { display: inline-block; font-family: 'Poppins'; font-weight: 600; font-size: 7.5pt; letter-spacing: 1.2pt; text-transform: uppercase; color: var(--blue); background: var(--soft); padding: 1.4mm 3mm; border-radius: 20mm; }
+.dark .kicker { background: rgba(37,99,255,.22); color: #9DB8FF; }
+.lead { font-size: 11pt; color: var(--muted); }
+.dark .lead { color: #B9C3DB; }
+.footer { position: absolute; left: 12mm; right: 12mm; bottom: 7mm; display: flex; justify-content: space-between; font-size: 7.5pt; color: #8A93A8; }
+.dark .footer { color: #6F7A94; }
+.steps { list-style: none; counter-reset: s; margin-top: 1mm; }
+.steps li { counter-increment: s; position: relative; padding-left: 9mm; margin-bottom: 2.4mm; }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: .2mm; width: 6mm; height: 6mm; border-radius: 50%; background: var(--blue); color: #fff; font-family: 'Poppins'; font-weight: 700; font-size: 8.5pt; display: flex; align-items: center; justify-content: center; }
+.meta { display: flex; gap: 2mm; flex-wrap: wrap; margin: 1mm 0 3mm; }
+.tag { font-size: 7.8pt; font-weight: 600; padding: 1.1mm 2.6mm; border-radius: 20mm; background: var(--soft); color: var(--navy); }
+.tag.easy { background: #E3F7EC; color: #0E7A43; }
+.box { background: var(--soft); border-radius: 4mm; padding: 4mm 4.5mm; margin-top: 3.5mm; }
+.box.auto { background: var(--navy); color: #fff; }
+.box.auto b { color: #9DB8FF; }
+.box .lbl { font-family: 'Poppins'; font-weight: 600; font-size: 8pt; letter-spacing: .8pt; text-transform: uppercase; color: var(--blue); margin-bottom: 1.2mm; }
+.box.auto .lbl { color: #9DB8FF; }
+.prompt { font-family: 'Inter'; font-size: 9pt; line-height: 1.45; background: #fff; border: 1.2pt dashed #A9BCF5; border-radius: 3mm; padding: 3mm 3.5mm; margin-top: 2mm; color: var(--navy); }
+.big-num { font-family: 'Poppins'; font-weight: 700; font-size: 44pt; line-height: 1; color: var(--blue); }
+.problem { font-size: 10.5pt; color: var(--muted); font-style: italic; margin-bottom: 2mm; }
+table { width: 100%; border-collapse: collapse; margin-top: 3mm; font-size: 8.8pt; }
+th { text-align: left; font-family: 'Poppins'; font-weight: 600; font-size: 8pt; color: #fff; background: var(--navy); padding: 2mm; }
+td { border-bottom: 1pt solid var(--line); padding: 2.6mm 2mm; color: var(--muted); }
+td:first-child { width: 42%; }
+.toc { list-style: none; margin-top: 4mm; }
+.toc li { display: flex; gap: 4mm; align-items: baseline; padding: 2.3mm 0; border-bottom: 1pt solid rgba(255,255,255,.12); font-size: 10.5pt; }
+.toc .n { font-family: 'Poppins'; font-weight: 700; color: #6E95FF; width: 7mm; }
+.pill-logo { background: #fff; border-radius: 5mm; padding: 3mm 5mm; display: inline-block; }
+.pill-logo img { height: 13mm; display: block; }
+.check li { list-style: none; position: relative; padding-left: 7mm; margin-bottom: 2mm; }
+.check li::before { content: ""; position: absolute; left: 0; top: 1.2mm; width: 3.6mm; height: 3.6mm; border: 1.3pt solid var(--blue); border-radius: 1mm; }
+.dark .check li::before { border-color: #6E95FF; }
+.cover-title { font-family: 'Poppins'; font-weight: 700; font-size: 31pt; line-height: 1.05; letter-spacing: -0.5pt; margin-top: 16mm; }
+.cover-title span { color: #6E95FF; }
+.glow { position: absolute; border-radius: 50%; filter: blur(18mm); }
+</style></head>
+<body>
+
+<!-- 1. COVER -->
+<section class="page dark">
+  <div class="glow" style="width:95mm;height:95mm;background:rgba(37,99,255,.55);right:-30mm;top:-25mm"></div>
+  <div class="glow" style="width:70mm;height:70mm;background:rgba(124,92,255,.28);left:-25mm;bottom:-20mm"></div>
+  <div style="position:relative">
+    <div class="pill-logo"><img src="logo.png"></div>
+    <div class="cover-title">Automatise<br>ton business<br><span>avec l'IA</span></div>
+    <p class="lead" style="margin-top:6mm;font-size:12pt;max-width:110mm">7 actions simples pour gagner du temps dès cette semaine, avec des outils que tu utilises déjà.</p>
+    <div style="margin-top:12mm;display:flex;gap:2.5mm;flex-wrap:wrap">
+      <span class="kicker">Sans compétence technique</span>
+      <span class="kicker">Outils gratuits</span>
+      <span class="kicker">Cafés · Hôtels · Restaurants · TPE</span>
+    </div>
+  </div>
+  <div class="footer"><span>Guide gratuit · Direct Digital</span><span>@directdigitalai</span></div>
+</section>
+
+<!-- 2. INTRO -->
+<section class="page">
+  <span class="kicker">Avant de commencer</span>
+  <h2>L'IA ne va pas faire ton métier. Elle va te rendre du temps pour le faire.</h2>
+  <p>Répondre aux mêmes questions, recopier des infos, relancer, rédiger… Ces petites tâches prennent quelques minutes chacune, mais elles reviennent tous les jours.</p>
+  <p>Ce guide te propose <b>7 actions concrètes</b>. Chacune se met en place <b>en quelques minutes</b>, sans coder, avec des outils gratuits ou que tu as déjà : ta boîte mail, ton compte Instagram ou Facebook, ta fiche Google, ChatGPT ou Claude.</p>
+  <div class="box">
+    <div class="lbl">La seule règle</div>
+    <p><b>Une action à la fois.</b> Choisis celle qui te soulage le plus, mets-la en place cette semaine, puis passe à la suivante. Mieux vaut une automatisation qui tourne que sept à moitié faites.</p>
+  </div>
+  <h3>Comment lire chaque fiche</h3>
+  <div class="meta"><span class="tag easy">Niveau : Facile</span><span class="tag">Mise en place : ~10 min</span><span class="tag">Outil : celui que tu as déjà</span></div>
+  <p style="font-size:9.2pt;color:var(--muted)">En bas de chaque fiche, la « version entièrement automatisée » te montre jusqu'où on peut aller. Tu n'as pas besoin de la faire toi-même.</p>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>2</span></div>
+</section>
+
+<!-- 3. TOC -->
+<section class="page dark">
+  <span class="kicker">Au programme</span>
+  <h2>Les 7 actions</h2>
+  <ul class="toc">
+    <li><span class="n">0</span>Trouve la tâche qui te coûte le plus de temps</li>
+    <li><span class="n">1</span>Réponds automatiquement aux messages Instagram et Facebook</li>
+    <li><span class="n">2</span>Crée tes modèles d'e-mails en un clic</li>
+    <li><span class="n">3</span>Réponds à tes avis Google en 2&nbsp;minutes</li>
+    <li><span class="n">4</span>Remplace les allers-retours par un formulaire</li>
+    <li><span class="n">5</span>Réduis les rendez-vous oubliés avec des rappels</li>
+    <li><span class="n">6</span>Prépare une semaine de posts en 20&nbsp;minutes</li>
+    <li><span class="n">7</span>Transforme tes notes en e-mails pro</li>
+  </ul>
+  <p class="lead" style="margin-top:5mm;font-size:9.5pt">+ Bonus : les prompts à copier-coller, et ce que l'automatisation complète peut faire pour toi.</p>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>3</span></div>
+</section>
+
+<!-- 4. ACTION 0 -->
+<section class="page">
+  <span class="kicker">Action 0 · 10 minutes</span>
+  <h2>Trouve la tâche qui te coûte le plus de temps</h2>
+  <p>Avant tout outil, il faut savoir <b>quoi</b> automatiser. Prends 10 minutes et remplis ce tableau avec les tâches que tu refais chaque semaine.</p>
+  <table>
+    <tr><th>Tâche répétitive</th><th>Combien de fois / semaine ?</th><th>Pénible ? (1 à 5)</th></tr>
+    <tr><td>Ex. : répondre « vous êtes ouverts ce soir ? »</td><td></td><td></td></tr>
+    <tr><td>Ex. : confirmer une réservation</td><td></td><td></td></tr>
+    <tr><td>Ex. : envoyer un devis de groupe</td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+  </table>
+  <div class="box">
+    <div class="lbl">Ta tâche n°1</div>
+    <p>Celle qui revient <b>le plus souvent</b> et qui est <b>la plus pénible</b>. C'est par elle que tu commences : cherche-la dans les actions qui suivent.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>4</span></div>
+</section>
+
+<!-- 5. ACTION 1 -->
+<section class="page">
+  <span class="kicker">Action 1</span>
+  <h2>Réponds automatiquement aux messages Instagram et Facebook</h2>
+  <p class="problem">« Vous êtes ouverts dimanche ? », « Je peux réserver pour 6 ? »… Toujours les mêmes questions, souvent quand tu es en plein service.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">~15 min</span><span class="tag">Meta Business Suite (gratuit)</span></div>
+  <ol class="steps">
+    <li>Ouvre <b>Meta Business Suite</b> (appli ou ordinateur), puis la <b>Messagerie</b>.</li>
+    <li>Va dans <b>Automatisations</b>.</li>
+    <li>Active la <b>réponse instantanée</b> : un message d'accueil avec tes horaires et ton lien de réservation.</li>
+    <li>Crée tes <b>questions fréquentes</b> : horaires, réservation, menu, accès, parking. Chaque question a sa réponse toute prête.</li>
+    <li>Active le <b>message d'absence</b> pour tes heures de fermeture.</li>
+  </ol>
+  <div class="box auto">
+    <div class="lbl">Version entièrement automatisée</div>
+    <p>Un assistant IA qui comprend la question, répond avec tes vraies infos et peut prendre la réservation. <b>C'est ce que Direct Digital met en place.</b></p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>5</span></div>
+</section>
+
+<!-- 6. ACTION 2 -->
+<section class="page">
+  <span class="kicker">Action 2</span>
+  <h2>Crée tes modèles d'e-mails en un clic</h2>
+  <p class="problem">Tu réécris presque le même e-mail plusieurs fois par semaine : confirmation, devis, infos pratiques…</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">~10 min</span><span class="tag">Gmail ou Outlook</span></div>
+  <h3>Sur Gmail</h3>
+  <ol class="steps">
+    <li>Paramètres → <b>Voir tous les paramètres</b> → onglet <b>Paramètres avancés</b> → active <b>Modèles</b>.</li>
+    <li>Écris ton e-mail type, puis : trois points ⋮ → <b>Modèles</b> → <b>Enregistrer le brouillon comme modèle</b>.</li>
+    <li>La prochaine fois : ⋮ → <b>Modèles</b> → choisis-le. C'est fait.</li>
+  </ol>
+  <h3>Sur Outlook</h3>
+  <p>Dans un nouveau message, cherche <b>« Mes modèles »</b> (selon ta version, dans l'onglet Message ou le menu Applications) et ajoute tes textes.</p>
+  <div class="box">
+    <div class="lbl">Par où commencer</div>
+    <p>3 modèles suffisent : <b>confirmation</b>, <b>réponse à une demande de devis</b>, <b>infos pratiques</b> (adresse, accès, horaires).</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>6</span></div>
+</section>
+
+<!-- 7. ACTION 3 -->
+<section class="page">
+  <span class="kicker">Action 3</span>
+  <h2>Réponds à tes avis Google en 2&nbsp;minutes</h2>
+  <p class="problem">Répondre aux avis compte pour ta réputation, mais trouver les bons mots prend du temps, surtout pour un avis négatif.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">2 min par avis</span><span class="tag">Fiche Google + ChatGPT ou Claude</span></div>
+  <ol class="steps">
+    <li>Ouvre ta <b>fiche Google</b> (appli Google Maps ou recherche Google, quand tu es connecté) et va dans les <b>avis</b>.</li>
+    <li>Copie l'avis du client.</li>
+    <li>Colle-le dans ChatGPT ou Claude avec ce prompt :</li>
+  </ol>
+  <div class="prompt">Tu es le gérant de [nom de ton établissement]. Rédige une réponse courte, chaleureuse et professionnelle à cet avis client. Remercie la personne, réponds précisément à ce qu'elle dit, et propose une solution si elle n'est pas satisfaite. Pas de formule toute faite. Avis : « [colle l'avis ici] »</div>
+  <div class="box">
+    <div class="lbl">Important</div>
+    <p><b>Relis toujours avant de publier.</b> Pour un litige, un remboursement ou une question d'allergènes, réponds toi-même : l'IA t'aide à rédiger, c'est toi qui décides.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>7</span></div>
+</section>
+
+<!-- 8. ACTION 4 -->
+<section class="page">
+  <span class="kicker">Action 4</span>
+  <h2>Remplace les allers-retours par un formulaire</h2>
+  <p class="problem">Un groupe, une privatisation, un devis : il faut souvent 4 ou 5 messages pour obtenir toutes les infos.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">~15 min</span><span class="tag">Google Forms (gratuit)</span></div>
+  <ol class="steps">
+    <li>Va sur <b>forms.google.com</b> et crée un formulaire vierge.</li>
+    <li>Ajoute les questions dont tu as besoin : date, nombre de personnes, type d'événement, budget, contact.</li>
+    <li>Onglet <b>Réponses</b> → <b>Associer à Sheets</b> : chaque demande arrive dans un tableau.</li>
+    <li>Toujours dans <b>Réponses</b> (menu ⋮), active les <b>notifications par e-mail</b>.</li>
+    <li>Mets le lien dans ta bio, ton modèle d'e-mail et ta réponse automatique.</li>
+  </ol>
+  <div class="box auto">
+    <div class="lbl">Version entièrement automatisée</div>
+    <p>Chaque demande déclenche un e-mail de réponse personnalisé, un devis pré-rempli et un rappel si le client ne répond pas. <b>Direct Digital peut le relier à tes outils.</b></p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>8</span></div>
+</section>
+
+<!-- 9. ACTION 5 -->
+<section class="page">
+  <span class="kicker">Action 5</span>
+  <h2>Réduis les rendez-vous oubliés avec des rappels</h2>
+  <p class="problem">Une table réservée qui ne vient pas, un client qui oublie son rendez-vous : c'est du chiffre d'affaires perdu.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">~10 min</span><span class="tag">Ton logiciel de réservation</span></div>
+  <ol class="steps">
+    <li>Ouvre les paramètres de ton <b>logiciel de réservation</b> ou de prise de rendez-vous.</li>
+    <li>Cherche « <b>notifications</b> », « <b>rappels</b> » ou « <b>confirmation</b> ».</li>
+    <li>Active le <b>rappel automatique</b> par SMS ou e-mail la veille, s'il le propose.</li>
+    <li>Personnalise le message : un ton chaleureux, et un moyen simple d'annuler pour libérer la place.</li>
+  </ol>
+  <div class="box">
+    <div class="lbl">Ton logiciel ne le propose pas ?</div>
+    <p>Utilise un modèle d'e-mail (action 2) et envoie les rappels en une fois, le matin pour le lendemain.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>9</span></div>
+</section>
+
+<!-- 10. ACTION 6 -->
+<section class="page">
+  <span class="kicker">Action 6</span>
+  <h2>Prépare une semaine de posts en 20&nbsp;minutes</h2>
+  <p class="problem">Tu sais qu'il faut publier régulièrement, mais l'inspiration manque quand tu as la tête dans le service.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">~20 min / semaine</span><span class="tag">ChatGPT ou Claude</span></div>
+  <ol class="steps">
+    <li>Ouvre ChatGPT ou Claude et colle le prompt ci-dessous.</li>
+    <li>Garde les idées qui te ressemblent, adapte-les avec tes mots.</li>
+    <li>Prends les photos dans la semaine, et programme tes posts depuis Meta Business Suite.</li>
+  </ol>
+  <div class="prompt">Je gère [type d'établissement] à [ville]. Mes clients sont [description]. Propose-moi 5 idées de publications Instagram pour la semaine prochaine : une coulisse, un produit ou plat, une info pratique, une question pour faire réagir, et un moment avec l'équipe. Pour chacune : l'idée de photo et une légende courte, chaleureuse, avec 3 hashtags locaux.</div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>10</span></div>
+</section>
+
+<!-- 11. ACTION 7 -->
+<section class="page">
+  <span class="kicker">Action 7</span>
+  <h2>Transforme tes notes en e-mails pro</h2>
+  <p class="problem">Tu sais ce que tu veux dire, mais rédiger un e-mail propre prend du temps, surtout entre deux clients.</p>
+  <div class="meta"><span class="tag easy">Facile</span><span class="tag">1 min</span><span class="tag">ChatGPT ou Claude</span></div>
+  <ol class="steps">
+    <li>Note tes idées en vrac, même avec des fautes, même au téléphone.</li>
+    <li>Colle-les avec ce prompt :</li>
+  </ol>
+  <div class="prompt">Transforme ces notes en un e-mail clair, poli et professionnel, en français, avec un objet. Ton : chaleureux mais sérieux. Garde toutes les informations, n'ajoute rien que je n'ai pas dit. Notes : [colle tes notes ici]</div>
+  <div class="box">
+    <div class="lbl">Astuce</div>
+    <p>Avec le micro de ton téléphone, tu peux dicter tes notes au lieu de les taper. Puis enregistre le résultat comme modèle (action 2) s'il te resservira.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>11</span></div>
+</section>
+
+<!-- 12. CHECKLIST -->
+<section class="page">
+  <span class="kicker">Ton plan d'action</span>
+  <h2>Ta checklist de la semaine</h2>
+  <p>Coche au fur et à mesure. Une case par jour suffit.</p>
+  <ul class="check" style="margin-top:4mm">
+    <li><b>Lundi</b> : j'identifie ma tâche n°1 (action 0)</li>
+    <li><b>Mardi</b> : j'active les réponses automatiques Instagram et Facebook (action 1)</li>
+    <li><b>Mercredi</b> : je crée mes 3 modèles d'e-mails (action 2)</li>
+    <li><b>Jeudi</b> : je réponds à mes derniers avis Google avec l'IA (action 3)</li>
+    <li><b>Vendredi</b> : je crée mon formulaire de demande (action 4)</li>
+    <li><b>Semaine suivante</b> : rappels, posts et e-mails (actions 5 à 7)</li>
+  </ul>
+  <div class="box" style="margin-top:6mm">
+    <div class="lbl">Les garde-fous</div>
+    <p>L'IA propose, tu valides. Relis toujours avant d'envoyer, ne partage pas de données sensibles de tes clients dans un outil d'IA, et garde la main sur tout ce qui touche aux litiges, remboursements et allergènes.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>12</span></div>
+</section>
+
+<!-- 13. NEXT LEVEL -->
+<section class="page dark">
+  <div class="glow" style="width:90mm;height:90mm;background:rgba(37,99,255,.45);right:-35mm;bottom:-30mm"></div>
+  <div style="position:relative">
+  <span class="kicker">Et après ?</span>
+  <h2>Quand tu veux que tout tourne sans toi</h2>
+  <p class="lead">Les actions de ce guide te font gagner du temps tout de suite. L'étape suivante, c'est de connecter tes outils entre eux pour que le travail se fasse vraiment tout seul. Quelques exemples de ce qui est possible :</p>
+  <ul class="toc" style="margin-top:4mm">
+    <li><span class="n">→</span>Un assistant vocal qui décroche le téléphone 24h/24 et prend les réservations</li>
+    <li><span class="n">→</span>Une boîte mail qui trie les messages et prépare les réponses</li>
+    <li><span class="n">→</span>Des relances clients et prospects envoyées au bon moment</li>
+    <li><span class="n">→</span>Des factures et devis saisis automatiquement</li>
+  </ul>
+  <p class="lead" style="margin-top:4mm;font-size:9.5pt">Pas besoin de tout comprendre : on part de ton besoin, on choisit la solution la plus simple, et on la met en place avec toi.</p>
+  </div>
+  <div class="footer"><span>Automatise ton business avec l'IA</span><span>13</span></div>
+</section>
+
+<!-- 14. CTA -->
+<section class="page dark">
+  <div class="glow" style="width:100mm;height:100mm;background:rgba(37,99,255,.5);left:-30mm;top:-35mm"></div>
+  <div style="position:relative;text-align:center;padding-top:10mm">
+    <div class="pill-logo"><img src="logo.png"></div>
+    <h2 style="margin-top:10mm;font-size:24pt">Envie d'aller plus loin ?</h2>
+    <p class="lead" style="max-width:112mm;margin:0 auto">Parlons de ton activité : on identifie ensemble les tâches qui te font perdre le plus de temps, et ce qui peut être automatisé chez toi.</p>
+    <div style="display:inline-block;margin-top:8mm;background:var(--blue);color:#fff;font-family:'Poppins';font-weight:600;font-size:12pt;padding:4mm 9mm;border-radius:20mm">Écris-moi en message privé</div>
+    <div style="margin-top:10mm;font-size:10pt;color:#B9C3DB;line-height:1.9">
+      Instagram : <b style="color:#fff">@directdigitalai</b><br>
+      LinkedIn : <b style="color:#fff">Direct Digital</b>
+    </div>
+    <p style="margin-top:9mm;font-size:8.5pt;color:#6F7A94">Les noms d'outils et de menus peuvent évoluer selon les versions des applications.</p>
+  </div>
+  <div class="footer"><span>Guide gratuit · Direct Digital</span><span>14</span></div>
+</section>
+
+</body></html>
