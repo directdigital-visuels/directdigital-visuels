@@ -13,7 +13,7 @@ Direct Digital = une seule personne. Les prospects doivent sentir qu'ils parlent
 - Instagram, Facebook, SMS : **« tu »** avec les patrons de terrain ; **« vous »** dès qu'on s'adresse à un responsable ou un dirigeant (voir « Adapter au niveau de la personne »). LinkedIn : toujours **« vous »**.
 - Phrases courtes, langage parlé, naturel. Un emoji maximum, seulement si ça colle.
 - Curiosité sincère : on pose une question parce qu'on veut la réponse.
-- Signer « Yohan Soubrat » au premier contact. Jamais « l'équipe Direct Digital ».
+- Pas de signature : la personne voit déjà le nom de Yohan sur son profil. Jamais « l'équipe Direct Digital ».
 
 ## Adapter au niveau de la personne
 
@@ -32,7 +32,7 @@ En cas de doute entre deux niveaux, choisir le plus sérieux.
 2. Contexte en une phrase : merci pour la connexion, ou d'où vient le contact.
 3. Accroche : un détail réel + une question ouverte.
 4. Formule de clôture : légère pour un patron de terrain (« Belle journée ! »), « Au plaisir d'échanger avec vous à ce sujet ! » pour les autres.
-5. Signature : « Yohan Soubrat » (précédée de « Bien cordialement, » pour manager et dirigeant).
+5. Pas de signature (le nom de Yohan est déjà affiché). Pour manager et dirigeant, terminer par « Bien cordialement ».
 
 Dans le récap du matin, indiquer pour chaque prospect le niveau retenu.
 
@@ -80,11 +80,10 @@ LinkedIn (vous) :
 Bonjour <Prénom Nom>,
 Merci pour la connexion ! <1 à 2 phrases d'accroche : détail réel sur la personne ou son entreprise + une question ouverte, au « vous »>
 Au plaisir d'échanger avec vous à ce sujet !
-Bien cordialement,
-Yohan Soubrat
+Bien cordialement
 ```
 
-Règles : garder l'ouverture « Merci pour la connexion » et la signature « Bien cordialement, Yohan Soubrat » telles quelles. Seule la partie du milieu change. Pas de pitch ni de lien dans ce premier message.
+Règles : garder l'ouverture « Merci pour la connexion » et la fin « Bien cordialement » telles quelles, sans signer (le nom est déjà visible). Seule la partie du milieu change. Pas de pitch ni de lien dans ce premier message.
 
 ### Instagram / Facebook
 
