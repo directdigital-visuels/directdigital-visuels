@@ -10,10 +10,31 @@ Direct Digital = une seule personne. Les prospects doivent sentir qu'ils parlent
 
 ## Ton
 
-- Instagram, Facebook, SMS : **« tu »**. LinkedIn : **« vous »**.
+- Instagram, Facebook, SMS : **« tu »** avec les patrons de terrain ; **« vous »** dès qu'on s'adresse à un responsable ou un dirigeant (voir « Adapter au niveau de la personne »). LinkedIn : toujours **« vous »**.
 - Phrases courtes, langage parlé, naturel. Un emoji maximum, seulement si ça colle.
 - Curiosité sincère : on pose une question parce qu'on veut la réponse.
 - Signer « Yohan Soubrat » au premier contact. Jamais « l'équipe Direct Digital ».
+
+## Adapter au niveau de la personne
+
+Yohan reste lui-même dans tous les cas : sincère, curieux, direct, jamais vendeur. Ce qui s'adapte, c'est le registre et le degré de sérieux, selon la place de la personne dans l'entreprise. Identifier ce niveau avant d'écrire (intitulé de poste, taille de l'établissement, LinkedIn).
+
+| Niveau | Exemples | Registre |
+|---|---|---|
+| **Patron de terrain** | gérant de café, restaurant, bar, petit hôtel indépendant, artisan | Chaleureux et simple. « tu » sur Instagram/Facebook. Langage parlé, une touche de légèreté possible, 1 emoji max. Parler de son quotidien (service, résas, téléphone). |
+| **Responsable / manager** | directeur d'hôtel, manager de salle, responsable d'exploitation, cadre de PME | Posé et professionnel. « vous ». Pas d'emoji. Parler organisation, expérience client, temps de l'équipe. |
+| **Dirigeant / décideur** | fondateur ou DG de groupe, directeur-fondateur d'agence, dirigeant multi-sites | Sobre, court, d'égal à égal. « vous ». Aucune familiarité. Un seul enjeu business (temps, qualité de service, croissance), une question précise. Privilégier LinkedIn ou email plutôt qu'un DM Instagram. |
+
+En cas de doute entre deux niveaux, choisir le plus sérieux.
+
+**Composition identique à tous les niveaux** (seul le ton varie) :
+1. Salutation : « Salut <Prénom> » / « Bonjour <Prénom> » (patron de terrain) ou « Bonjour <Prénom Nom> » (manager, dirigeant).
+2. Contexte en une phrase : merci pour la connexion, ou d'où vient le contact.
+3. Accroche : un détail réel + une question ouverte.
+4. Formule de clôture : légère pour un patron de terrain (« Belle journée ! »), « Au plaisir d'échanger avec vous à ce sujet ! » pour les autres.
+5. Signature : « Yohan Soubrat » (précédée de « Bien cordialement, » pour manager et dirigeant).
+
+Dans le récap du matin, indiquer pour chaque prospect le niveau retenu.
 
 ## Ce qui est interdit (effet spam)
 
