@@ -1,0 +1,67 @@
+{
+ "name": "2026-10-21_reel_IA-automatisation-agent_restaurant",
+ "cover": {
+  "kicker": "Version restaurant",
+  "title": "IA ou automatisation<br><span>pour ton resto ?</span>",
+  "tags": [
+   "Réservations",
+   "Avis Google",
+   "Groupes"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "kicker": "Version restaurant",
+   "lines": [
+    "Ton resto a",
+    "besoin d'IA…",
+    "ou juste",
+    "d'automatisation ?"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.6,
+   "num": "1",
+   "title": "L'automatisation",
+   "text": "Une règle fixe : si ceci arrive, alors fais cela.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Réservation confirmée",
+    "SMS de rappel la veille"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.6,
+   "num": "2",
+   "title": "L'IA",
+   "text": "Elle comprend un texte et te prépare une réponse.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Nouvel avis Google",
+    "Brouillon de réponse"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 5.0,
+   "num": "3",
+   "title": "L'agent IA",
+   "text": "Il choisit la bonne action, dans le cadre que tu fixes.",
+   "ex_label": "Exemple",
+   "ex_text": "Question sur les horaires : il répond. Demande de groupe : il te la transmet."
+  },
+  {
+   "type": "end",
+   "dur": 4.6,
+   "lines": [
+    "Pour commencer,",
+    "les deux premiers suffisent."
+   ],
+   "cta": "Enregistre pour t'en souvenir"
+  }
+ ]
+}
