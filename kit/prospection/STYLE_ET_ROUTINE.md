@@ -53,7 +53,21 @@ LinkedIn (vous) :
 
 ## Messages écrits par Yohan (référence de ton)
 
-_À compléter : coller ici 3 à 4 vrais messages de Yohan. Les brouillons doivent s'en rapprocher._
+### LinkedIn — premier message après une connexion acceptée (formule de Yohan, à respecter)
+
+```
+Bonjour <Prénom Nom>,
+Merci pour la connexion ! <1 à 2 phrases d'accroche : détail réel sur la personne ou son entreprise + une question ouverte, au « vous »>
+Au plaisir d'échanger avec vous à ce sujet !
+Bien cordialement,
+Yohan S
+```
+
+Règles : garder l'ouverture « Merci pour la connexion » et la signature « Bien cordialement, Yohan S » telles quelles. Seule la partie du milieu change. Pas de pitch ni de lien dans ce premier message.
+
+### Instagram / Facebook
+
+_À compléter : coller ici 2 ou 3 vrais messages de Yohan au « tu ». En attendant, suivre les modèles de forme ci-dessus._
 
 ## Ciblage
 
