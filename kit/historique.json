@@ -1,6 +1,55 @@
 [
- {"date":"2026-10-20T12:30","reseaux":["instagram","facebook"],"format":"carrousel","sujet":"5 tâches CHR à automatiser dès cette semaine","uuids":["5197684712083636990","2146583264582845370"]},
- {"date":"2026-10-21T15:30","reseaux":["instagram","facebook"],"format":"reel","sujet":"IA, automatisation, agent IA : version restaurant","uuids":["3775232501776074936","6383047940509091539"]},
- {"date":"2026-10-22T12:30","reseaux":["instagram","facebook"],"format":"carrousel","sujet":"Les 5 questions avant d'automatiser (CHR)","uuids":["-5405196605442667944","226256568693113623"]},
- {"date":"2026-10-23T12:30","reseaux":["instagram","facebook"],"format":"visuel","sujet":"Question : quelle tâche te fait perdre le plus de temps ?","uuids":["4839406807221290830","8155894020800921887"]}
+ {
+  "date": "2026-10-20T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "5 tâches CHR à automatiser dès cette semaine",
+  "uuids": [
+   "5197684712083636990",
+   "2146583264582845370"
+  ]
+ },
+ {
+  "date": "2026-10-21T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "IA, automatisation, agent IA : version restaurant (refait le 21/10 : accroche dès la 1re image, exemples CHR)",
+  "uuids": [
+   "3775232501776074936",
+   "6383047940509091539"
+  ],
+  "fichiers": "2026-10/semaine-43/reel-ia-automatisation-agent-restaurant/"
+ },
+ {
+  "date": "2026-10-22T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Les 5 questions avant d'automatiser (CHR)",
+  "uuids": [
+   "-5405196605442667944",
+   "226256568693113623"
+  ]
+ },
+ {
+  "date": "2026-10-23T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "visuel",
+  "sujet": "Question : quelle tâche te fait perdre le plus de temps ?",
+  "uuids": [
+   "4839406807221290830",
+   "8155894020800921887"
+  ]
+ }
 ]
