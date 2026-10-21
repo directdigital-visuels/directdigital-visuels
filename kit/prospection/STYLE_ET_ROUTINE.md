@@ -13,7 +13,7 @@ Direct Digital = une seule personne. Les prospects doivent sentir qu'ils parlent
 - Instagram, Facebook, SMS : **« tu »**. LinkedIn : **« vous »**.
 - Phrases courtes, langage parlé, naturel. Un emoji maximum, seulement si ça colle.
 - Curiosité sincère : on pose une question parce qu'on veut la réponse.
-- Signer « Yohan » si c'est le premier contact. Jamais « l'équipe Direct Digital ».
+- Signer « Yohan Soubrat » au premier contact. Jamais « l'équipe Direct Digital ».
 
 ## Ce qui est interdit (effet spam)
 
@@ -60,10 +60,10 @@ Bonjour <Prénom Nom>,
 Merci pour la connexion ! <1 à 2 phrases d'accroche : détail réel sur la personne ou son entreprise + une question ouverte, au « vous »>
 Au plaisir d'échanger avec vous à ce sujet !
 Bien cordialement,
-Yohan S
+Yohan Soubrat
 ```
 
-Règles : garder l'ouverture « Merci pour la connexion » et la signature « Bien cordialement, Yohan S » telles quelles. Seule la partie du milieu change. Pas de pitch ni de lien dans ce premier message.
+Règles : garder l'ouverture « Merci pour la connexion » et la signature « Bien cordialement, Yohan Soubrat » telles quelles. Seule la partie du milieu change. Pas de pitch ni de lien dans ce premier message.
 
 ### Instagram / Facebook
 
