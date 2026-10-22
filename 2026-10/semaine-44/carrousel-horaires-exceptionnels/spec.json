@@ -1,0 +1,77 @@
+{
+ "name": "2026-10-26_carrousel_horaires-exceptionnels",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Cafés, hôtels, restaurants, commerces",
+   "title": "Toussaint, 11&nbsp;novembre&nbsp;: tes <span class=\"hl\">horaires</span> sont à jour ?",
+   "lead": "Un client qui trouve porte close à cause d'une fiche Google pas à jour, c'est un client déçu. 3 actions faciles pour ne plus l'oublier.",
+   "swipe": "Glisse pour voir les 3 actions"
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Action 1",
+   "title": "Ajoute tes horaires exceptionnels sur Google",
+   "problem": "Google affiche « Ouvert » alors que tu es fermé ce jour-là.",
+   "actions": [
+    "Ouvre ta fiche dans l'appli Google Business Profile ou Google Maps",
+    "Va dans Modifier le profil, puis Horaires, puis Horaires exceptionnels",
+    "Ajoute la date et indique « Fermé » ou tes horaires du jour"
+   ],
+   "tools": [
+    "Google Business Profile"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Action 2",
+   "title": "Programme un rappel une fois pour toutes",
+   "problem": "Les jours fériés reviennent chaque année, et on y pense souvent au dernier moment.",
+   "actions": [
+    "Dans ton agenda, crée un événement 10 jours avant chaque jour férié",
+    "Règle la répétition sur « Chaque année »",
+    "Note dedans ta liste&nbsp;: fiche Google, réservations, messagerie"
+   ],
+   "tools": [
+    "Google Agenda",
+    "Outlook"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Action 3",
+   "title": "Préviens tes clients là où ils te contactent",
+   "problem": "Les « Vous êtes ouverts le 1<sup>er</sup> ? » arrivent en plein service.",
+   "actions": [
+    "Bloque la date dans ton logiciel de réservation, s'il le propose",
+    "Mets à jour ta réponse automatique dans Meta Business Suite",
+    "Ajoute une ligne sur ton site ou ton répondeur"
+   ],
+   "tools": [
+    "Logiciel de réservation",
+    "Meta Business Suite"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Pour aller plus loin",
+   "title": "La version entièrement automatisée",
+   "body": "Des outils comme Make ou n8n relient tes applis entre elles&nbsp;: ils peuvent t'envoyer le rappel et préparer les mises à jour, que tu valides. C'est ce que Direct Digital peut mettre en place. Mais les 3 actions suffisent pour commencer."
+  },
+  {
+   "type": "cta",
+   "kicker": "À garder",
+   "title": "Enregistre ce post avant le prochain jour férié",
+   "lead": "Prochaines dates&nbsp;: 1<sup>er</sup>&nbsp;novembre, 11&nbsp;novembre, 25&nbsp;décembre.",
+   "action": "Enregistre ce post"
+  }
+ ]
+}

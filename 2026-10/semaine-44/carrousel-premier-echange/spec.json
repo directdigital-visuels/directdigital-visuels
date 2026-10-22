@@ -1,0 +1,39 @@
+{
+ "name": "2026-10-30_carrousel_premier-echange",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Direct Digital",
+   "title": "Un premier échange avec nous, <span class=\"hl\">ça se passe comment ?</span>",
+   "lead": "Pas de jargon, pas d'engagement. Voici les 3 étapes.",
+   "swipe": "Glisse pour voir"
+  },
+  {
+   "type": "text",
+   "kicker": "Étape 1",
+   "title": "Tu nous décris ta tâche",
+   "body": "<span style=\"font-size:42px;line-height:1.45;display:block;margin-top:20px\">Celle qui te prend du temps chaque semaine&nbsp;: réservations, commandes, messages, devis… En quelques phrases, avec tes mots. Aucune connaissance technique n'est nécessaire.</span>"
+  },
+  {
+   "type": "text",
+   "kicker": "Étape 2",
+   "title": "On regarde si l'automatisation vaut&nbsp;le&nbsp;coup",
+   "body": "<span style=\"font-size:42px;line-height:1.45;display:block;margin-top:20px\">Fréquence, temps passé, risque d'erreur&nbsp;: on passe ta tâche au crible. <b>Parfois, la réponse est non</b>, et on te le dit franchement.</span>"
+  },
+  {
+   "type": "text",
+   "kicker": "Étape 3",
+   "title": "Si oui, une proposition adaptée",
+   "body": "<span style=\"font-size:42px;line-height:1.45;display:block;margin-top:20px\">On t'explique ce qu'on peut mettre en place, si possible avec les outils que tu utilises déjà. Ensuite, c'est toi qui décides.</span>"
+  },
+  {
+   "type": "cta",
+   "kicker": "Pour commencer",
+   "title": "Reçois d'abord le&nbsp;guide&nbsp;gratuit",
+   "lead": "Dans la même conversation, tu peux nous décrire ta tâche.",
+   "keyword": "GUIDE",
+   "foot": "Gratuit, envoyé automatiquement"
+  }
+ ]
+}
