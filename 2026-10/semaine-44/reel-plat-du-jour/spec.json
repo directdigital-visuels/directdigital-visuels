@@ -1,0 +1,8 @@
+{"name":"2026-10-29_reel_plat-du-jour","cover":{"kicker":"Version restaurant","title":"Ton plat du jour<br><span>posté en 3 étapes</span>","tags":["Photo","ChatGPT ou Claude","Relecture"]},
+"scenes":[
+{"type":"hook","dur":3.2,"kicker":"Version restaurant","lines":["Une photo","du plat du jour…","et ton post est prêt."]},
+{"type":"point","dur":4.4,"num":"1","title":"Prends la photo","text":"Lumière du jour, assiette au centre, avant le service.","ex_label":"Astuce","ex_text":"Ton téléphone suffit."},
+{"type":"point","dur":5.2,"num":"2","title":"Demande le texte à&nbsp;l'IA","text":"Envoie la photo à ChatGPT ou Claude, avec le nom du plat et le prix.","ex_label":"Ta consigne","ex_text":"« Écris un post court et chaleureux pour ce plat. »"},
+{"type":"point","dur":4.6,"num":"3","title":"Relis avant de publier","text":"Prix, ingrédients, allergènes : c'est toi qui vérifies.","ex_label":"Le bon réflexe","chips":["Texte de l'IA","Relu par toi"]},
+{"type":"end","dur":4.6,"lines":["L'IA écrit,","tu gardes le dernier mot."],"cta":"Enregistre pour essayer demain"}
+]}

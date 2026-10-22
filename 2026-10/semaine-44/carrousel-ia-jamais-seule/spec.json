@@ -1,0 +1,81 @@
+{
+ "name": "2026-10-28_carrousel_ia-jamais-seule",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Version restaurant",
+   "title": "Ce que l'IA ne doit <span class=\"hl\">jamais</span> faire seule",
+   "lead": "L'IA peut t'aider sur beaucoup de messages. Sur ces 3 sujets, c'est toi qui décides.",
+   "items": [
+    "Les allergènes",
+    "Les litiges",
+    "Les remboursements"
+   ]
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Zone humaine",
+   "title": "Les allergènes",
+   "problem": "Une mauvaise réponse peut mettre un client en danger.",
+   "actions": [
+    "L'IA peut mettre en forme ton tableau d'allergènes&nbsp;: toi ou ton chef vérifiez chaque ligne",
+    "Toute question d'allergie reçue en message est traitée par une personne de l'équipe",
+    "Dans ta réponse automatique, ajoute&nbsp;: « Pour une allergie, appelle-nous, l'équipe te répond. »"
+   ],
+   "tools": [
+    "Ta carte",
+    "Ton équipe"
+   ],
+   "level": "Règle d'or"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Zone humaine",
+   "title": "Les litiges",
+   "problem": "Un client mécontent veut être entendu par une personne.",
+   "actions": [
+    "L'IA peut résumer la réclamation et proposer un premier jet de réponse",
+    "Toi, tu relis, tu ajustes le ton et tu décides du geste commercial",
+    "Tu envoies la réponse toi-même, sous ton nom"
+   ],
+   "tools": [
+    "ChatGPT ou Claude",
+    "Toi"
+   ],
+   "level": "Relu par toi"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Zone humaine",
+   "title": "Les remboursements",
+   "problem": "C'est de l'argent et une décision qui t'engage.",
+   "actions": [
+    "Un formulaire peut regrouper les demandes dans un tableau&nbsp;: date, montant, motif",
+    "Tu valides toi-même chaque demande, au cas&nbsp;par&nbsp;cas",
+    "Aucun outil ne rembourse sans ton accord"
+   ],
+   "tools": [
+    "Google Forms",
+    "Google Sheets"
+   ],
+   "level": "Décision humaine"
+  },
+  {
+   "type": "text",
+   "kicker": "La règle simple",
+   "title": "L'IA prépare, <span class=\"hl\">tu décides</span>",
+   "body": "Santé, argent, client mécontent&nbsp;: un humain tranche. Pour le reste (horaires, parking, Wi-Fi), les réponses automatiques et l'IA peuvent te soulager."
+  },
+  {
+   "type": "cta",
+   "kicker": "À garder",
+   "title": "Enregistre ce post et montre-le à ton équipe",
+   "lead": "Une règle claire évite les mauvaises surprises le jour où vous testez l'IA.",
+   "action": "Enregistre ce post"
+  }
+ ]
+}
