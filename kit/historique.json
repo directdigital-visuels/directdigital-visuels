@@ -51,5 +51,111 @@
    "4839406807221290830",
    "8155894020800921887"
   ]
+ },
+ {
+  "date": "2026-10-26T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Horaires exceptionnels (Toussaint, 11 novembre) : fiche Google + rappel annuel + prévenir les clients",
+  "uuids": [
+   "5980453357515460512",
+   "4279251590944214970"
+  ],
+  "fichiers": "2026-10/semaine-44/carrousel-horaires-exceptionnels/"
+ },
+ {
+  "date": "2026-10-26T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : ta fiche Google est à jour pour la Toussaint ?",
+  "uuids": [
+   "-5523519638637294783"
+  ],
+  "fichiers": "2026-10/semaine-44/stories/"
+ },
+ {
+  "date": "2026-10-27T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel (brouillon Higgsfield à valider)",
+  "sujet": "Avis Google : alerte + brouillon de réponse par l'IA, relu avant publication (épisode Higgsfield 1, génération 794710a2 du 21/10)",
+  "uuids": [
+   "-4937266835228047499",
+   "-8435040811218941433"
+  ],
+  "higgsfield": "794710a2-9304-4466-aaa3-c2f609883bfc"
+ },
+ {
+  "date": "2026-10-28T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Ce que l'IA ne doit jamais faire seule dans un restaurant (allergènes, litiges, remboursements)",
+  "uuids": [
+   "6146369425593749235",
+   "6542623402130883997"
+  ],
+  "fichiers": "2026-10/semaine-44/carrousel-ia-jamais-seule/"
+ },
+ {
+  "date": "2026-10-28T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : tu laisserais l'IA répondre seule à tes clients ?",
+  "uuids": [
+   "275128096060623473"
+  ],
+  "fichiers": "2026-10/semaine-44/stories/"
+ },
+ {
+  "date": "2026-10-29T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Plat du jour : une photo, un texte préparé par l'IA, relu avant publication (musique originale, pas d'audio catalogue : connexion Meta expirée)",
+  "uuids": [
+   "1601051303015304579",
+   "6916325559724229783"
+  ],
+  "fichiers": "2026-10/semaine-44/reel-plat-du-jour/"
+ },
+ {
+  "date": "2026-10-30T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel (conversion)",
+  "sujet": "Comment se passe un premier échange avec Direct Digital (parfois la réponse est non)",
+  "uuids": [
+   "4025966957647055069",
+   "-6649561955117086453"
+  ],
+  "fichiers": "2026-10/semaine-44/carrousel-premier-echange/"
+ },
+ {
+  "date": "2026-10-30T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : ton casse-tête de la semaine ?",
+  "uuids": [
+   "7889551216305326839"
+  ],
+  "fichiers": "2026-10/semaine-44/stories/"
  }
 ]
