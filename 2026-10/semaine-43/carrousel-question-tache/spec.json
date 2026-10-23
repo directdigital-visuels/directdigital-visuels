@@ -1,0 +1,38 @@
+{
+ "name": "2026-10-23_carrousel_question-tache",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Question du vendredi",
+   "title": "Quelle tâche te fait perdre <span class=\"hl\">le plus de temps</span> ?",
+   "lead": "Cafés, hôtels, restaurants&nbsp;: dis-nous laquelle, on te montre comment la simplifier.",
+   "swipe": "Glisse pour la suite"
+  },
+  {
+   "type": "text",
+   "kicker": "Pourquoi on te pose la question",
+   "title": "Tes réponses décident de <span class=\"hl\">nos prochains posts</span>",
+   "body": "<span style=\"font-size:42px;line-height:1.45;display:block;margin-top:20px\">Les tâches qui reviennent le plus en commentaire deviendront des carrousels pas à pas&nbsp;: des actions faciles, avec des outils que tu utilises déjà.</span>"
+  },
+  {
+   "type": "text",
+   "kicker": "Pour répondre",
+   "title": "Une phrase suffit",
+   "body": "<span style=\"font-size:42px;line-height:1.45;display:block;margin-top:20px\">Pas besoin de détails techniques. Par exemple (exemple fictif)&nbsp;:<br><br><b>« Le lundi matin, je passe une bonne heure à faire mes commandes. »</b></span>"
+  },
+  {
+   "type": "ask",
+   "kicker": "À toi",
+   "title": "Ta tâche, en commentaire",
+   "chips": [
+    "Les réservations",
+    "Les avis",
+    "Les commandes",
+    "Les groupes",
+    "Autre chose&nbsp;?"
+   ],
+   "action": "Dis-le-nous en commentaire"
+  }
+ ]
+}
