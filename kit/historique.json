@@ -45,12 +45,13 @@
    "instagram",
    "facebook"
   ],
-  "format": "visuel",
+  "format": "carrousel (4 slides, remplace le visuel unique le 23/10)",
   "sujet": "Question : quelle tâche te fait perdre le plus de temps ?",
   "uuids": [
    "4839406807221290830",
    "8155894020800921887"
-  ]
+  ],
+  "fichiers": "2026-10/semaine-43/carrousel-question-tache/"
  },
  {
   "date": "2026-10-26T12:30",
