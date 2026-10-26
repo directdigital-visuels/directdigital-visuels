@@ -1,0 +1,15 @@
+{
+ "name": "2026-10-27_reel_avis-google_restaurant",
+ "cover": {
+  "kicker": "Avis Google",
+  "title": "Un avis tombe<br><span>en plein service ?</span>",
+  "tags": ["Notification", "Brouillon IA", "Tu relis"]
+ },
+ "scenes": [
+  {"type": "hook", "dur": 3.2, "kicker": "Avis Google", "lines": ["Un nouvel avis", "en plein service…", "tu le vois", "trois jours après ?"]},
+  {"type": "point", "dur": 4.4, "num": "1", "title": "Sois prévenu", "text": "Active les notifications d'avis dans l'appli Google Business Profile.", "ex_label": "Exemple", "chips": ["Nouvel avis Google", "Notification sur ton téléphone"]},
+  {"type": "point", "dur": 4.6, "num": "2", "title": "L'IA prépare", "text": "Copie l'avis dans ChatGPT ou Claude : il te propose une réponse courte et polie.", "ex_label": "Exemple", "chips": ["Avis copié", "Brouillon de réponse"]},
+  {"type": "point", "dur": 4.8, "num": "3", "title": "Toi, tu valides", "text": "Relis, personnalise, publie toi-même.", "ex_label": "Important", "ex_text": "Avis négatif ou litige : c'est toujours toi qui réponds."},
+  {"type": "end", "dur": 4.4, "lines": ["Répondre à chaque avis,", "sans y passer ta soirée."], "cta": "Enregistre pour tester cette semaine"}
+ ]
+}
