@@ -1,0 +1,25 @@
+{
+ "name": "2026-11-04_carrousel_chatbot-agent-ia-hotel",
+ "format": "post",
+ "slides": [
+  {"type": "cover", "kicker": "Comprendre l'IA · version hôtel",
+   "title": "Chatbot ou <span class=\"hl\">agent IA</span>&nbsp;: lequel pour ton hôtel ?",
+   "lead": "Les deux répondent à tes clients sur ton site. Ils ne font pas du tout la même chose. L'explication simple, puis par quoi commencer.",
+   "swipe": "Glisse pour comprendre"},
+  {"type": "text", "kicker": "Le chatbot classique", "title": "Il suit un scénario écrit à l'avance",
+   "body": "Le client clique sur «&nbsp;Parking&nbsp;» → le chatbot affiche la réponse que tu as préparée. Simple et fiable. Mais une question imprévue, et il ne sait plus quoi dire."},
+  {"type": "text", "kicker": "L'agent IA", "title": "Il comprend la question et choisit quoi faire",
+   "body": "«&nbsp;Vous acceptez les chiens&nbsp;? Il reste une chambre samedi&nbsp;?&nbsp;» → il répond sur les animaux avec tes infos, et transmet la question de disponibilité à la réception. Toujours dans le cadre que tu fixes."},
+  {"type": "text", "dark": true, "kicker": "Dans les deux cas", "title": "Allergies, litiges, remboursements&nbsp;: c'est toi",
+   "body": "Un chatbot comme un agent IA doit passer la main à un humain sur ces sujets. Et il ne promet jamais une chambre ni un prix sans ta validation."},
+  {"type": "task", "n": "✓", "label": "Par où commencer", "title": "Prépare tes réponses avant de choisir un outil",
+   "problem": "Sans réponses claires, ni chatbot ni agent IA ne peut aider tes clients.",
+   "actions": ["Note les 10 questions qu'on te pose le plus (parking, animaux, horaires, petit-déjeuner)",
+               "Écris une réponse courte pour chacune et publie-les sur ton site, dans une page FAQ",
+               "Reprends-les dans les réponses automatiques de Meta Business Suite"],
+   "tools": ["Ton site", "Meta Business Suite"], "level": "Facile"},
+  {"type": "cta", "kicker": "À retenir", "title": "Tes réponses d'abord, l'outil ensuite",
+   "lead": "Avec une bonne FAQ, tu es prêt pour l'un comme pour l'autre. L'agent IA, c'est ce que Direct Digital peut mettre en place quand tu veux aller plus loin.",
+   "action": "Enregistre ce post"}
+ ]
+}

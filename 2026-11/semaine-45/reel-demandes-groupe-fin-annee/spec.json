@@ -1,0 +1,66 @@
+{
+ "name": "2026-11-03_reel_demandes-groupe-fin-annee",
+ "cover": {
+  "kicker": "Repas de fin d'année",
+  "title": "Tes demandes de groupe<br><span>arrivent de partout ?</span>",
+  "tags": [
+   "Un formulaire",
+   "Un tableau",
+   "Un devis relu"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "kicker": "Repas de fin d'année",
+   "lines": [
+    "Repas de groupe :",
+    "les demandes arrivent",
+    "de partout ?"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.4,
+   "num": "1",
+   "title": "Un seul formulaire",
+   "text": "Crée un Google Forms : date, nombre de personnes, budget, allergies.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Demande par message",
+    "Lien vers ton formulaire"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.4,
+   "num": "2",
+   "title": "Tout dans un tableau",
+   "text": "Chaque réponse s'ajoute toute seule dans Google Sheets.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Formulaire envoyé",
+    "Une ligne dans ton tableau"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 5.0,
+   "num": "3",
+   "title": "L'IA prépare le devis",
+   "text": "Colle la ligne dans ChatGPT ou Claude avec ton menu groupe et tes prix.",
+   "ex_label": "Important",
+   "ex_text": "Tu relis chaque devis. Les allergies, c'est toujours toi."
+  },
+  {
+   "type": "end",
+   "dur": 4.6,
+   "lines": [
+    "Toutes tes demandes de groupe,",
+    "au même endroit."
+   ],
+   "cta": "Enregistre pour l'activer cette semaine"
+  }
+ ]
+}

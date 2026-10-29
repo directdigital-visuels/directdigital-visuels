@@ -1,0 +1,11 @@
+{
+ "name": "2026-11-05_reel_factures-fournisseurs",
+ "cover": {"kicker": "Commerces, artisans, restaurants", "title": "Fin de mois&nbsp;:<br><span>la chasse aux factures ?</span>", "tags": ["Gmail", "Outlook", "Ton téléphone"]},
+ "scenes": [
+  {"type": "hook", "dur": 3.4, "kicker": "Commerces, artisans, restaurants", "lines": ["Fin de mois :", "tu cherches encore", "tes factures", "dans ta boîte mail ?"]},
+  {"type": "point", "dur": 4.4, "num": "1", "title": "Une règle de tri", "text": "Dans Gmail ou Outlook, les e-mails qui contiennent « facture » partent dans un dossier.", "ex_label": "Exemple", "chips": ["Facture reçue", "Dossier Factures"]},
+  {"type": "point", "dur": 4.4, "num": "2", "title": "Transfert au comptable", "text": "La même règle peut aussi les transférer à ton comptable.", "ex_label": "Exemple", "chips": ["Dossier Factures", "Ton comptable"]},
+  {"type": "point", "dur": 5.0, "num": "3", "title": "Et les factures papier ?", "text": "Scanne-les avec ton téléphone (Notes sur iPhone, Google Drive sur Android).", "ex_label": "Astuce", "ex_text": "Demande d'abord à ton comptable comment il préfère les recevoir."},
+  {"type": "end", "dur": 4.6, "lines": ["La fin de mois,", "sans chasse aux factures."], "cta": "Enregistre pour le faire ce soir"}
+ ]
+}

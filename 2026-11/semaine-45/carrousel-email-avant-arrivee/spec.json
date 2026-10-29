@@ -1,0 +1,33 @@
+{
+ "name": "2026-11-02_carrousel_email-avant-arrivee",
+ "format": "post",
+ "slides": [
+  {"type": "cover", "kicker": "Hôtels, chambres d'hôtes, gîtes",
+   "title": "Le message <span class=\"hl\">avant l'arrivée</span> qui répond à tout",
+   "lead": "Heure d'arrivée, parking, Wi-Fi, petit-déjeuner&nbsp;: les mêmes questions reviennent à chaque séjour. 3 actions faciles pour y répondre avant qu'on te les pose.",
+   "swipe": "Glisse pour voir les 3 actions"},
+  {"type": "task", "n": 1, "label": "Action 1", "title": "Écris ton message une fois pour toutes",
+   "problem": "Tu réexpliques le parking et l'heure d'arrivée à chaque client.",
+   "actions": ["Note les 5 questions qu'on te pose le plus avant un séjour",
+               "Demande à ChatGPT ou Claude&nbsp;: «&nbsp;Rédige un e&#8209;mail d'accueil court et chaleureux avec ces infos&nbsp;»",
+               "Vérifie chaque info (horaires, adresse, accès) et garde-le comme modèle"],
+   "tools": ["ChatGPT", "Claude"], "level": "Facile"},
+  {"type": "task", "n": 2, "label": "Action 2", "title": "Programme l'envoi dans ton logiciel",
+   "problem": "Envoyer le message à la main, client par client, on finit par l'oublier.",
+   "actions": ["Cherche les «&nbsp;messages automatiques&nbsp;» dans ton logiciel de réservation, s'il le propose",
+               "Colle ton modèle et règle l'envoi deux jours avant l'arrivée",
+               "Fais un test sur ta propre adresse avant d'activer"],
+   "tools": ["Logiciel de réservation"], "level": "Facile"},
+  {"type": "task", "n": 3, "label": "Action 3", "title": "Pas d'envoi automatique ? Le plan B",
+   "problem": "Ton logiciel ne propose pas cette fonction.",
+   "actions": ["Enregistre ton message comme modèle dans Gmail ou Outlook",
+               "Chaque matin, regarde les arrivées du surlendemain",
+               "Envoie le modèle en quelques clics, en changeant juste le prénom"],
+   "tools": ["Gmail", "Outlook"], "level": "Facile"},
+  {"type": "text", "dark": true, "kicker": "Pour aller plus loin", "title": "La version entièrement automatisée",
+   "body": "Des outils comme Make ou n8n relient tes applis entre elles&nbsp;: si ton logiciel le permet, ils envoient le bon message à chaque client, tout seuls. C'est ce que Direct Digital peut mettre en place. Mais l'action 2 ou 3 suffit pour commencer."},
+  {"type": "cta", "kicker": "À garder", "title": "Enregistre ce post et écris ton message cette semaine",
+   "lead": "Astuce&nbsp;: termine par «&nbsp;Une allergie ou une demande particulière&nbsp;? Réponds à cet e&#8209;mail.&nbsp;» Et c'est toi qui gères la réponse.",
+   "action": "Enregistre ce post"}
+ ]
+}
