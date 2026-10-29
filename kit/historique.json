@@ -172,5 +172,121 @@
    "-8435040811218941433"
   ],
   "fichiers": "2026-10/semaine-44/reel-avis-google-restaurant/"
+ },
+ {
+  "date": "2026-10-25T14:45",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "reel (publié à la main, Higgsfield)",
+  "sujet": "Humour : le premier resto automatisé de l'histoire (âge de pierre) — générations Higgsfield du 25/10 (6a698ef7, fc1af3fb, b19e9096… montage)",
+  "uuids": [],
+  "fichiers": "2026-10/semaine-44/reel-resto-age-de-pierre/"
+ },
+ {
+  "date": "2026-11-02T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Hôtel : le message automatique deux jours avant l'arrivée (modèle ChatGPT/Claude, logiciel de réservation, plan B Gmail/Outlook)",
+  "uuids": [
+   "279060260053533276",
+   "-7812896988430842574"
+  ],
+  "fichiers": "2026-11/semaine-45/carrousel-email-avant-arrivee/"
+ },
+ {
+  "date": "2026-11-02T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : tes clients reçoivent un message avant de venir ?",
+  "uuids": [
+   "8632192067759523849"
+  ],
+  "fichiers": "2026-11/semaine-45/stories/"
+ },
+ {
+  "date": "2026-11-03T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Repas de fin d'année : demandes de groupe → Google Forms → Google Sheets → brouillon de devis IA relu (IG : musique « This Vibe », Giulio Cercato)",
+  "uuids": [
+   "-8482519375421944241",
+   "6935417903477048209"
+  ],
+  "fichiers": "2026-11/semaine-45/reel-demandes-groupe-fin-annee/"
+ },
+ {
+  "date": "2026-11-04T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Chatbot ou agent IA sur le site d'un hôtel : la différence + commencer par une FAQ",
+  "uuids": [
+   "6124804851658476899",
+   "8806897647921482247"
+  ],
+  "fichiers": "2026-11/semaine-45/carrousel-chatbot-agent-ia-hotel/"
+ },
+ {
+  "date": "2026-11-04T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : un chatbot sur ton site, utile ou gadget ?",
+  "uuids": [
+   "-8577645134708128447"
+  ],
+  "fichiers": "2026-11/semaine-45/stories/"
+ },
+ {
+  "date": "2026-11-05T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Factures fournisseurs : règle de tri Gmail/Outlook + transfert au comptable + scan papier (TPE/PME ; IG : musique « Good Intentions », Giulio Cercato)",
+  "uuids": [
+   "-2724504719644146484",
+   "1713535514012110484"
+  ],
+  "fichiers": "2026-11/semaine-45/reel-factures-fournisseurs/"
+ },
+ {
+  "date": "2026-11-06T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "visuel question",
+  "sujet": "Question : fin d'année, quelle demande te fait le plus courir ?",
+  "uuids": [
+   "4769597700498279552",
+   "2505746780193964822"
+  ],
+  "fichiers": "2026-11/semaine-45/visuel-question-fin-annee/"
+ },
+ {
+  "date": "2026-11-06T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : repas de fin d'année, les demandes ont commencé ?",
+  "uuids": [
+   "4775626562513618163"
+  ],
+  "fichiers": "2026-11/semaine-45/stories/"
  }
 ]
