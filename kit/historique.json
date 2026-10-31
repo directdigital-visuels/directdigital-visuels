@@ -229,13 +229,13 @@
    "instagram",
    "facebook"
   ],
-  "format": "carrousel",
-  "sujet": "Chatbot ou agent IA sur le site d'un hôtel : la différence + commencer par une FAQ",
+  "format": "reel",
+  "sujet": "Chatbot ou agent IA sur le site d'un hôtel : la différence + commencer par une FAQ (passé de carrousel à Reel motion design le 31/10, musique originale)",
   "uuids": [
    "6124804851658476899",
    "8806897647921482247"
   ],
-  "fichiers": "2026-11/semaine-45/carrousel-chatbot-agent-ia-hotel/"
+  "fichiers": "2026-11/semaine-45/reel-chatbot-agent-ia-hotel/"
  },
  {
   "date": "2026-11-04T18:00",
@@ -288,5 +288,31 @@
    "4775626562513618163"
   ],
   "fichiers": "2026-11/semaine-45/stories/"
+ },
+ {
+  "date": "2026-11-05T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story rappel du guide gratuit (réponds GUIDE) — conversion douce de la semaine",
+  "uuids": [
+   "5578462373415503921"
+  ],
+  "fichiers": "2026-11/semaine-45/stories/"
+ },
+ {
+  "date": "2026-11-07T11:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Présentation du fondateur : qui est derrière Direct Digital (vraie photo de Yohan, parcours, règle « parfois la réponse est non »)",
+  "uuids": [
+   "4989311429934993145",
+   "-2589134606214806181"
+  ],
+  "fichiers": "2026-11/semaine-45/carrousel-qui-est-derriere/"
  }
 ]

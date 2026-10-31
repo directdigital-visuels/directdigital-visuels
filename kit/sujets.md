@@ -30,4 +30,9 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 
 ## Conversion (au plus une publication par semaine)
 - [x] Comment se passe un premier échange avec Direct Digital : tu décris ta tâche, on regarde si l'automatisation est pertinente, parfois la réponse est non (carrousel conversion, 30/10)
-- [ ] Rappel du guide gratuit (mot-clé GUIDE)
+- [x] Rappel du guide gratuit (mot-clé GUIDE) (story, 05/11)
+
+## Confiance (compte jeune)
+- [x] Présentation du fondateur : qui est derrière Direct Digital (carrousel, 07/11)
+- [ ] Coulisses : une automatisation testée, ce qui a marché / raté
+- [ ] Pourquoi les cafés, hôtels et restaurants
