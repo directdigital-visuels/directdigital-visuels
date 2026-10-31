@@ -1,0 +1,11 @@
+{
+ "name": "2026-11-04_reel_chatbot-agent-ia-hotel",
+ "cover": {"kicker": "Comprendre l'IA · hôtel", "title": "Chatbot ou agent IA<br><span>pour ton hôtel ?</span>", "tags": ["Scénario", "Compréhension", "Ta FAQ"]},
+ "scenes": [
+  {"type": "hook", "dur": 3.2, "kicker": "Comprendre l'IA · hôtel", "lines": ["Chatbot", "ou agent IA :", "lequel pour", "ton hôtel ?"]},
+  {"type": "point", "dur": 4.4, "num": "1", "title": "Le chatbot", "text": "Il suit un scénario écrit à l'avance. Fiable, mais perdu face à l'imprévu.", "ex_label": "Exemple", "chips": ["Clic sur « Parking »", "Ta réponse préparée"]},
+  {"type": "point", "dur": 4.6, "num": "2", "title": "L'agent IA", "text": "Il comprend la question et choisit quoi faire, dans le cadre que tu fixes.", "ex_label": "Exemple", "chips": ["« Vous acceptez les chiens ? »", "Réponse avec tes infos"]},
+  {"type": "point", "dur": 5.0, "num": "3", "title": "Par où commencer", "text": "Note tes 10 questions les plus fréquentes et écris une page FAQ.", "ex_label": "Important", "ex_text": "Allergies, litiges, remboursements : toujours un humain."},
+  {"type": "end", "dur": 4.4, "lines": ["Tes réponses d'abord,", "l'outil ensuite."], "cta": "Enregistre pour préparer ta FAQ"}
+ ]
+}

@@ -1,0 +1,7 @@
+{"name": "2026-11-07_carrousel_qui-est-derriere", "format": "post", "slides": [
+ {"type": "founder", "photo": "photo.jpg", "kicker": "Qui est derrière<br>Direct Digital ?", "title": "Moi, c'est <span class=\"hl\">Yohan</span>.", "lead": "Basé à Toulouse, j'aide les cafés, hôtels et restaurants à gagner du temps avec l'IA et l'automatisation.", "swipe": "Glisse pour me connaître"},
+ {"type": "text", "kicker": "Mon parcours", "title": "Du commerce à l'IA", "body": "J'ai d'abord travaillé dans le commerce et la communication. Puis je me suis spécialisé dans l'IA et l'automatisation, avec une idée simple&nbsp;: les journées d'un gérant sont déjà bien assez pleines."},
+ {"type": "text", "kicker": "Ce que je fais", "title": "Je simplifie ce qui te prend du temps", "body": "Réservations, avis Google, demandes de groupe, messages, factures&nbsp;: on regarde ensemble ce qui peut être automatisé, et ce qui doit rester humain."},
+ {"type": "text", "dark": true, "kicker": "Ma règle", "title": "Parfois, la réponse est non", "body": "Si une tâche ne vaut pas la peine d'être automatisée, je te le dis. Et les allergies, les litiges ou les remboursements restent toujours gérés par toi."},
+ {"type": "cta", "kicker": "Ici, chaque semaine", "title": "Des actions concrètes, faciles à tester", "lead": "Des astuces pour gagner du temps dans ton établissement, sans compétence technique. Et si tu as une question, écris-moi.", "action": "Abonne-toi pour la suite"}
+]}
