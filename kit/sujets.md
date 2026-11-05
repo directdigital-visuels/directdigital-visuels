@@ -7,13 +7,13 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Avis Google : alerte + brouillon de réponse par l'IA, relu avant publication (épisode Higgsfield 1, brouillon 27/10 à valider)
 - [x] Hôtel : l'e-mail automatique deux jours avant l'arrivée (check-in, parking, Wi-Fi, horaires du petit-déjeuner) (carrousel, 02/11)
 - [x] Groupes et privatisations : formulaire unique → tableau → brouillon de devis (Reel repas de fin d'année, 03/11)
-- [ ] Commandes fournisseurs : tableau de stock partagé + alerte quand un produit passe sous le seuil
-- [ ] No-shows : rappel la veille + liste d'attente pour remplir les tables libérées
+- [x] Commandes fournisseurs : tableau de stock partagé + alerte quand un produit passe sous le seuil (carrousel, 09/11)
+- [x] No-shows : rappel la veille + liste d'attente pour remplir les tables libérées (Reel, 10/11)
 - [x] Factures fournisseurs : classement automatique pour le comptable (Reel TPE/PME, 05/11)
 - [ ] Questions répétitives en message privé (horaires, parking, animaux) : réponses automatiques
 - [x] Plat du jour : une photo → une publication préparée par l'IA, relue avant envoi (Reel, 29/10)
 - [x] Horaires exceptionnels (jours fériés, fermetures) : penser à mettre à jour la fiche Google, avec un rappel automatique (carrousel, 26/10)
-- [ ] Planning du personnel : envoi automatique du planning de la semaine à l'équipe
+- [x] Planning du personnel : envoi automatique du planning de la semaine à l'équipe (Reel TPE/PME, 12/11)
 - [ ] Clients fidèles : une lettre d'information mensuelle préparée par l'IA
 - [ ] Inventaire de fin de mois dans un tableau partagé
 
@@ -25,7 +25,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 
 ## Conseils pratiques
 - [x] Les 5 questions avant d'automatiser (carrousel, 22/10)
-- [ ] Où perds-tu du temps ? Le test du chronomètre sur une journée de service
+- [x] Où perds-tu du temps ? Le test du chronomètre sur une journée de service (carrousel, 11/11)
 - [ ] Par quoi commencer quand on n'a jamais rien automatisé
 
 ## Conversion (au plus une publication par semaine)

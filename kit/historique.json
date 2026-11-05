@@ -314,5 +314,111 @@
    "-2589134606214806181"
   ],
   "fichiers": "2026-11/semaine-45/carrousel-qui-est-derriere/"
+ },
+ {
+  "date": "2026-11-09T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Commandes fournisseurs : tableau de stock Google Sheets partagé + case rouge sous le seuil + rappel la veille de la commande",
+  "uuids": [
+   "-3594412054921852143",
+   "-6613354310647329982"
+  ],
+  "fichiers": "2026-11/semaine-46/carrousel-stock-fournisseurs/"
+ },
+ {
+  "date": "2026-11-09T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : ton stock, cahier, tableau ou de tête ?",
+  "uuids": [
+   "5495781542362957743"
+  ],
+  "fichiers": "2026-11/semaine-46/stories/"
+ },
+ {
+  "date": "2026-11-10T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "No-shows : rappel la veille + liste d'attente + message quand une table se libère (IG : musique « Motive (Instrumental) », Giulio Cercato)",
+  "uuids": [
+   "2939163295653122018",
+   "9075518054492097972"
+  ],
+  "fichiers": "2026-11/semaine-46/reel-no-shows/"
+ },
+ {
+  "date": "2026-11-11T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Le test du chronomètre sur une journée de service (4 étapes, ouvert TPE/PME)",
+  "uuids": [
+   "-1173318783875988457",
+   "7712645701924243852"
+  ],
+  "fichiers": "2026-11/semaine-46/carrousel-test-chronometre/"
+ },
+ {
+  "date": "2026-11-11T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story défi : chronomètre une seule tâche de bureau demain",
+  "uuids": [
+   "-5567929333406216784"
+  ],
+  "fichiers": "2026-11/semaine-46/stories/"
+ },
+ {
+  "date": "2026-11-12T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Planning de l'équipe : Google Sheets partagé + envoi programmé Gmail/Outlook chaque semaine (TPE/PME ; IG : musique « We Fly High », Giulio Cercato)",
+  "uuids": [
+   "-5318858678474751423",
+   "-3969945009156898698"
+  ],
+  "fichiers": "2026-11/semaine-46/reel-planning-equipe/"
+ },
+ {
+  "date": "2026-11-13T12:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "visuel question",
+  "sujet": "Question : sans quel outil ta journée s'arrête ?",
+  "uuids": [
+   "-2923531351506665227",
+   "-595996622907159438"
+  ],
+  "fichiers": "2026-11/semaine-46/visuel-question-outil/"
+ },
+ {
+  "date": "2026-11-13T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : un no-show cette semaine ?",
+  "uuids": [
+   "-7437712812544867985"
+  ],
+  "fichiers": "2026-11/semaine-46/stories/"
  }
 ]
