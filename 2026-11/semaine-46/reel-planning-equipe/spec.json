@@ -1,0 +1,11 @@
+{
+ "name": "2026-11-12_reel_planning-equipe",
+ "cover": {"kicker": "Restaurants, commerces, équipes", "title": "«&nbsp;Je bosse<br>quand cette semaine<span>&nbsp;?&nbsp;»</span>", "tags": ["Google Sheets", "Gmail", "Outlook"]},
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "kicker": "Dimanche soir, 23h", "lines": ["« Je bosse", "quand cette semaine ? »"]},
+  {"type": "point", "dur": 4.2, "num": "1", "title": "Un seul planning", "text": "Un tableau Google Sheets partagé, en lecture seule pour l'équipe.", "ex_label": "Exemple", "chips": ["Planning papier", "Lien partagé"]},
+  {"type": "point", "dur": 4.2, "num": "2", "title": "Un envoi programmé", "text": "Dans Gmail ou Outlook, programme l'envoi du lien chaque jeudi à 18h.", "ex_label": "Exemple", "chips": ["Jeudi 18h", "Toute l'équipe"]},
+  {"type": "point", "dur": 4.4, "num": "3", "title": "Un changement ?", "text": "Tu modifies le tableau : tout le monde voit la même version.", "ex_label": "Astuce", "ex_text": "Épingle le lien dans le groupe de discussion de l'équipe."},
+  {"type": "end", "dur": 4.0, "lines": ["Le planning,", "sans les questions du dimanche soir."], "cta": "Enregistre pour le mettre en place"}
+ ]
+}

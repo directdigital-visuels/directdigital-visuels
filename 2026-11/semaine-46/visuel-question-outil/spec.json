@@ -1,0 +1,4 @@
+{"name": "2026-11-13_visuel_question-outil", "format": "post", "slides": [
+ {"type": "ask", "kicker": "Question du vendredi", "title": "Sans quel outil ta journée s'arrête&nbsp;?",
+  "chips": ["Le cahier de réservations", "Le logiciel de caisse", "WhatsApp", "Gmail ou Outlook", "Un tableau Excel"],
+  "action": "Dis-le-nous en commentaire"}]}

@@ -1,0 +1,76 @@
+{
+ "name": "2026-11-09_carrousel_stock-fournisseurs",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Cafés, bars, restaurants",
+   "title": "Plus de <span class=\"hl\">rupture de stock</span> en plein service",
+   "lead": "Le jour où il n'y a plus de crème, c'est souvent parce que personne n'avait noté qu'il en restait deux briques. 3 actions faciles avec un simple tableau partagé.",
+   "swipe": "Glisse pour voir les 3 actions"
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Action 1",
+   "title": "Un seul tableau de stock pour toute l'équipe",
+   "problem": "Le stock est noté sur un cahier, un tableau blanc… ou dans la tête de quelqu'un.",
+   "actions": [
+    "Crée un tableau Google Sheets avec 4 colonnes&nbsp;: produit, fournisseur, quantité, seuil minimum",
+    "Commence par tes 20 produits les plus utilisés, pas par tout l'inventaire",
+    "Partage-le avec ton équipe et ajoute-le à l'écran d'accueil du téléphone de la cuisine"
+   ],
+   "tools": [
+    "Google Sheets"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Action 2",
+   "title": "La case passe au rouge sous le seuil",
+   "problem": "On voit le chiffre, mais personne ne remarque qu'il est trop bas.",
+   "actions": [
+    "Sélectionne la colonne «&nbsp;quantité&nbsp;», puis Format, puis Mise en forme conditionnelle",
+    "Choisis «&nbsp;Formule personnalisée&nbsp;» et colle =C2&lt;D2 (quantité en colonne C, seuil en D)&nbsp;: la case devient rouge sous le seuil",
+    "Avant de commander, un coup d'œil suffit&nbsp;: tout ce qui est rouge part dans la commande"
+   ],
+   "tools": [
+    "Google Sheets"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Action 3",
+   "title": "Un rappel avant chaque commande",
+   "problem": "Le tableau existe, mais on oublie de le mettre à jour.",
+   "actions": [
+    "Dans ton agenda, crée un rappel qui se répète la veille de chaque passage fournisseur",
+    "Une personne de l'équipe compte les produits et met le tableau à jour en 10 minutes",
+    "Copie la liste rouge et envoie-la à ton fournisseur par e&#8209;mail ou par message"
+   ],
+   "tools": [
+    "Google Agenda",
+    "Outlook"
+   ],
+   "level": "Facile"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Pour aller plus loin",
+   "title": "La version entièrement automatisée",
+   "body": "Des outils comme Make ou n8n peuvent lire ton tableau et t'envoyer chaque matin la liste des produits sous le seuil, prête à transmettre. C'est ce que Direct Digital peut mettre en place. Mais les 3 actions suffisent pour commencer."
+  },
+  {
+   "type": "cta",
+   "kicker": "À garder",
+   "title": "Enregistre ce post et crée ton tableau cette semaine",
+   "lead": "Astuce&nbsp;: demande à ChatGPT ou Claude de te proposer la liste de départ à partir de ta carte, puis corrige-la avec ton chef.",
+   "action": "Enregistre ce post"
+  }
+ ]
+}

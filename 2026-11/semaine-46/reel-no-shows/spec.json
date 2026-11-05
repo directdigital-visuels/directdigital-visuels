@@ -1,0 +1,65 @@
+{
+ "name": "2026-11-10_reel_no-shows",
+ "cover": {
+  "kicker": "Restaurants",
+  "title": "Table de 6.<br>20h45.<br><span>Personne.</span>",
+  "tags": [
+   "Rappel la veille",
+   "Liste d'attente"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "kicker": "Samedi soir",
+   "lines": [
+    "Table de 6.",
+    "20h45.",
+    "Personne."
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.2,
+   "num": "1",
+   "title": "Le rappel la veille",
+   "text": "Active le rappel automatique de ton logiciel de réservation, s'il le propose.",
+   "ex_label": "Exemple",
+   "ex_text": "« À demain 20h ! Un empêchement ? Préviens-nous. »"
+  },
+  {
+   "type": "point",
+   "dur": 4.2,
+   "num": "2",
+   "title": "Une liste d'attente",
+   "text": "Complet ? Note le nom et le numéro de ceux que tu refuses.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Client refusé",
+    "Liste d'attente"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.2,
+   "num": "3",
+   "title": "Une table se libère ?",
+   "text": "Envoie un message à ta liste d'attente : le premier qui répond prend la table.",
+   "ex_label": "Exemple",
+   "chips": [
+    "Annulation",
+    "SMS à la liste"
+   ]
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Moins de tables vides,",
+    "sans courir après personne."
+   ],
+   "cta": "Enregistre pour l'activer ce soir"
+  }
+ ]
+}
