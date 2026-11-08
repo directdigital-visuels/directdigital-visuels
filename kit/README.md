@@ -20,3 +20,11 @@ Outils et gabarits utilisés chaque semaine pour produire les publications Insta
 
 ## Liens publics
 Les fichiers de ce dépôt sont publics : Metricool les télécharge par leur lien `raw.githubusercontent.com/directdigital-visuels/directdigital-visuels/main/<chemin>`.
+
+## Horaires de publication Instagram / Facebook (validés le 08/11, prioritaires sur toute autre consigne)
+Cible CHR : ne jamais publier pendant les services (11 h 30-14 h 30 et 19 h-22 h 30).
+- Carrousels, visuels question et posts du fil : **16 h 00** (coupure de l'après-midi), plus 12 h 30.
+- Reels : **15 h 30**.
+- Stories : **18 h 00** (elles restent 24 h ; texte au ton « du soir »).
+- Le dimanche est le jour où l'audience est la plus active (Metricool) : un créneau possible à 17 h 00.
+- LinkedIn est géré par une autre conversation : ne pas toucher à ses horaires.
