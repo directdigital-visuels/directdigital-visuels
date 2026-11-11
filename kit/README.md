@@ -14,6 +14,7 @@ Outils et gabarits utilisés chaque semaine pour produire les publications Insta
   - **Moteur v2 (11/11)** : typo cinétique mot à mot, barre de progression segmentée, musique + effets générés (libres de droits), scènes `hook`, `clip`, `point`, `list`, `compare`, `phone`, `notif`, `counter`, `end`, thème clair par scène (`"theme": "light"`). Mode d'emploi complet en tête de `kit/tools/render_reel.py`, exemple dans `kit/exemples/reel_v2_demo.json`.
   - **Toujours lancer `--preview` d'abord** (planche d'images clés), la regarder, puis le rendu complet.
   - **Réel hybride (format à privilégier)** : scène `clip` en accroche (photo ou plan vidéo avec visage / avatar, fonds validés dans `kit/brand/story-bg/`, jamais d'hommes préhistoriques, étiquette IA à cocher), puis motion design. Les réels 100 % motion design touchent 5 à 7 personnes, ceux avec un visage 50 à 70.
+  - **Accroche des réels hybrides (décision du 11/11)** : photo des fonds validés (`kit/brand/story-bg/`), pas de génération Higgsfield payante. Cocher `isAiGenerated: true` sur Instagram (avatar IA). Les réels v2 ont leur propre son : ne pas ajouter de musique Instagram (audioConfiguration) par-dessus.
   - Varier les scènes : pas plus de deux `point` d'affilée ; préférer `phone` / `notif` / `list` / `compare` pour montrer plutôt qu'écrire. `counter` uniquement avec un chiffre réel et sourcé.
 - Après chaque rendu, regarder les images produites (planche contact) avant de publier. Le script signale les slides qui débordent.
 

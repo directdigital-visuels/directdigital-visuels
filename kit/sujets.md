@@ -10,7 +10,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Commandes fournisseurs : tableau de stock partagé + alerte quand un produit passe sous le seuil (carrousel, 09/11)
 - [x] No-shows : rappel la veille + liste d'attente pour remplir les tables libérées (Reel, 10/11)
 - [x] Factures fournisseurs : classement automatique pour le comptable (Reel TPE/PME, 05/11)
-- [ ] Questions répétitives en message privé (horaires, parking, animaux) : réponses automatiques
+- [x] Questions répétitives en message privé (horaires, parking, animaux) : réponses automatiques (Reel, 17/11)
 - [x] Plat du jour : une photo → une publication préparée par l'IA, relue avant envoi (Reel, 29/10)
 - [x] Horaires exceptionnels (jours fériés, fermetures) : penser à mettre à jour la fiche Google, avec un rappel automatique (carrousel, 26/10)
 - [x] Planning du personnel : envoi automatique du planning de la semaine à l'équipe (Reel TPE/PME, 12/11)
@@ -20,7 +20,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 ## Comprendre l'IA (version CHR)
 - [x] IA, automatisation, agent IA : version restaurant (Reel, 21/10)
 - [x] Ce que l'IA ne doit jamais faire seule dans un restaurant (allergènes, litiges, remboursements) (carrousel, 28/10)
-- [ ] Répondre à un avis négatif : ce que l'IA peut préparer, ce qui reste humain
+- [x] Répondre à un avis négatif : ce que l'IA peut préparer, ce qui reste humain (Reel, 19/11)
 - [x] Chatbot ou agent IA sur ton site : quelle différence pour un hôtel ? (carrousel, 04/11)
 
 ## Conseils pratiques
