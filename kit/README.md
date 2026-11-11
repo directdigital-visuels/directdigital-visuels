@@ -11,6 +11,10 @@ Outils et gabarits utilisés chaque semaine pour produire les publications Insta
   pas de logo, pas de bouton, pas de capitales, « je » plutôt que « nous », 25 mots maximum, texte placé sous les visages, rien sous 1620 px.
   Le ton : une vraie question ou une confidence (« Question du soir 👀 », « Petit cadeau ☕ »), jamais une annonce.
 - Reels en motion design + couverture : `python3 kit/tools/render_reel.py spec.json sortie/`
+  - **Moteur v2 (11/11)** : typo cinétique mot à mot, barre de progression segmentée, musique + effets générés (libres de droits), scènes `hook`, `clip`, `point`, `list`, `compare`, `phone`, `notif`, `counter`, `end`, thème clair par scène (`"theme": "light"`). Mode d'emploi complet en tête de `kit/tools/render_reel.py`, exemple dans `kit/exemples/reel_v2_demo.json`.
+  - **Toujours lancer `--preview` d'abord** (planche d'images clés), la regarder, puis le rendu complet.
+  - **Réel hybride (format à privilégier)** : scène `clip` en accroche (photo ou plan vidéo avec visage / avatar, fonds validés dans `kit/brand/story-bg/`, jamais d'hommes préhistoriques, étiquette IA à cocher), puis motion design. Les réels 100 % motion design touchent 5 à 7 personnes, ceux avec un visage 50 à 70.
+  - Varier les scènes : pas plus de deux `point` d'affilée ; préférer `phone` / `notif` / `list` / `compare` pour montrer plutôt qu'écrire. `counter` uniquement avec un chiffre réel et sourcé.
 - Après chaque rendu, regarder les images produites (planche contact) avant de publier. Le script signale les slides qui débordent.
 
 ## Rangement

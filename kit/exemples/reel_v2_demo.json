@@ -1,0 +1,14 @@
+{
+ "name": "demo_reel_v2",
+ "cover": {"kicker": "Restaurants", "title": "Table de 6.<br>20h45.<br><span>Personne.</span>", "tags": ["Rappel la veille", "Liste d'attente"]},
+ "scenes": [
+  {"type": "clip", "dur": 3.0, "src": "../brand/story-bg/avatar-telephone-cuisine.jpg", "tag": "Samedi soir", "lines": ["Table de 6. 20h45.", "*Personne.*"]},
+  {"type": "hook", "dur": 2.6, "kicker": "No-shows", "lines": ["3 réglages", "pour les éviter"]},
+  {"type": "phone", "dur": 5.0, "title": "1. Le *rappel* la veille", "name": "Ton restaurant", "sub": "SMS automatique", "messages": [
+     {"side": "out", "text": "À demain 20h ! Un empêchement ? Préviens-nous."},
+     {"side": "in", "text": "On sera là, à demain !"}]},
+  {"type": "list", "dur": 4.6, "theme": "light", "kicker": "2. Liste d'attente", "title": "Complet ? Note-les.", "items": ["Le nom", "Le numéro", "Le nombre de couverts"]},
+  {"type": "compare", "dur": 5.2, "title": "3. Une table se libère", "left": {"label": "Sans liste", "items": ["Table vide", "Service à trous"]}, "right": {"label": "Avec liste", "items": ["Un message à la liste", "Le premier qui répond la prend"]}},
+  {"type": "end", "dur": 4.0, "lines": ["Moins de tables vides,", "sans courir après personne."], "cta": "Enregistre pour l'activer ce soir"}
+ ]
+}
