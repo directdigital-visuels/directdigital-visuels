@@ -1,0 +1,13 @@
+{
+ "name": "2026-11-19_reel_avis-negatif",
+ "cover": {"kicker": "Avis Google", "title": "Un avis négatif ?<br><span>L'IA prépare, tu décides.</span>", "tags": ["ChatGPT ou Claude", "Relu par toi"]},
+ "scenes": [
+  {"type": "clip", "dur": 3.0, "src": "../../../kit/brand/story-bg/chef-au-telephone-cuisine.jpg", "tag": "Dimanche, 23 h", "lines": ["Un avis *1 étoile*", "vient de tomber."]},
+  {"type": "hook", "dur": 2.6, "kicker": "Avis négatif", "lines": ["L'IA prépare,", "toi tu décides"]},
+  {"type": "notif", "dur": 4.2, "title": "Ne réponds pas *à chaud*", "notifs": [
+     {"app": "Google", "title": "Nouvel avis : 1 étoile sur 5", "text": "« Attente trop longue, plat froid. » (exemple fictif)", "time": "23:04"}]},
+  {"type": "list", "dur": 5.0, "theme": "light", "kicker": "Le lendemain", "title": "Colle l'avis dans *ChatGPT ou Claude*", "items": ["Demande un brouillon calme et poli", "Des excuses, sans te justifier", "Une invitation à te recontacter"]},
+  {"type": "point", "dur": 4.4, "title": "Ce qui reste *humain*", "text": "Les faits, les gestes commerciaux, les allergies : c'est toi qui tranches.", "ex_label": "Avant de publier", "ex_text": "Relis, corrige et ajoute un détail que toi seul connais."},
+  {"type": "end", "dur": 4.0, "lines": ["Ta réponse sera lue", "par tes prochains clients."], "cta": "Enregistre pour le prochain avis"}
+ ]
+}

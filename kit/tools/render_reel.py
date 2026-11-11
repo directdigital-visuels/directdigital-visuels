@@ -206,6 +206,15 @@ def words(line, t, step=.075, cw=False):
         if end:
             on = False
         t += step
+    if cw:   # sous-titres : les mots surlignés forment un seul bloc bleu (pas une case par mot)
+        merged = []
+        for o in out:
+            if 'class="cw hl"' in o and merged and 'class="cw hl"' in merged[-1]:
+                inner = o.split('>', 1)[1].rsplit('</span>', 1)[0]
+                merged[-1] = merged[-1].rsplit('</span>', 1)[0] + ' ' + inner + '</span>'
+            else:
+                merged.append(o)
+        out = merged
     return ' '.join(out), t
 
 
