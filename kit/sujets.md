@@ -14,7 +14,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Plat du jour : une photo → une publication préparée par l'IA, relue avant envoi (Reel, 29/10)
 - [x] Horaires exceptionnels (jours fériés, fermetures) : penser à mettre à jour la fiche Google, avec un rappel automatique (carrousel, 26/10)
 - [x] Planning du personnel : envoi automatique du planning de la semaine à l'équipe (Reel TPE/PME, 12/11)
-- [ ] Clients fidèles : une lettre d'information mensuelle préparée par l'IA
+- [x] Clients fidèles : une lettre d'information mensuelle préparée par l'IA (carrousel, 16/11)
 - [ ] Inventaire de fin de mois dans un tableau partagé
 
 ## Comprendre l'IA (version CHR)
@@ -22,6 +22,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Ce que l'IA ne doit jamais faire seule dans un restaurant (allergènes, litiges, remboursements) (carrousel, 28/10)
 - [x] Répondre à un avis négatif : ce que l'IA peut préparer, ce qui reste humain (Reel, 19/11)
 - [x] Chatbot ou agent IA sur ton site : quelle différence pour un hôtel ? (carrousel, 04/11)
+- [x] Bien demander à ChatGPT ou Claude : la consigne en 4 parties (rôle, contexte, tâche, format) (carrousel, 18/11)
 
 ## Conseils pratiques
 - [x] Les 5 questions avant d'automatiser (carrousel, 22/10)
@@ -30,7 +31,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 
 ## Conversion (au plus une publication par semaine)
 - [x] Comment se passe un premier échange avec Direct Digital : tu décris ta tâche, on regarde si l'automatisation est pertinente, parfois la réponse est non (carrousel conversion, 30/10)
-- [x] Rappel du guide gratuit (mot-clé GUIDE) (story, 05/11)
+- [x] Rappel du guide gratuit (mot-clé GUIDE) (story, 05/11 ; story, 20/11)
 
 ## Confiance (compte jeune)
 - [x] Présentation du fondateur : qui est derrière Direct Digital (carrousel, 07/11)

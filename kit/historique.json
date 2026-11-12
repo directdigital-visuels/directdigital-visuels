@@ -452,5 +452,83 @@
   "fichiers": [
    "2026-11/semaine-47/reel-avis-negatif/2026-11-19_reel_avis-negatif.mp4"
   ]
+ },
+ {
+  "date": "2026-11-16T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Clients fidèles : lettre d'information mensuelle (Google Forms + QR code avec accord, brouillon ChatGPT/Claude relu, envoi Gmail/Outlook en Cci + désinscription)",
+  "uuids": [
+   "1490844288994788582",
+   "-582437602109669061"
+  ],
+  "fichiers": "2026-11/semaine-47/carrousel-lettre-clients-fideles/"
+ },
+ {
+  "date": "2026-11-16T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : tes habitués, tu les préviens comment ?",
+  "uuids": [
+   "9133354787351642555"
+  ],
+  "fichiers": "2026-11/semaine-47/stories/"
+ },
+ {
+  "date": "2026-11-18T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Comprendre l'IA : la consigne en 4 parties (rôle, contexte, tâche, format), exemple fictif menu de Noël d'un bistrot, relecture humaine",
+  "uuids": [
+   "-357720668604641892",
+   "-6580604835648681717"
+  ],
+  "fichiers": "2026-11/semaine-47/carrousel-consigne-ia/"
+ },
+ {
+  "date": "2026-11-18T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : si l'IA pouvait faire une seule tâche à ta place demain ?",
+  "uuids": [
+   "-3219703702843536066"
+  ],
+  "fichiers": "2026-11/semaine-47/stories/"
+ },
+ {
+  "date": "2026-11-20T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "visuel question",
+  "sujet": "Question : tu demandes quoi à ChatGPT pour ton établissement ?",
+  "uuids": [
+   "-6570157965944665466",
+   "4637741680306372871"
+  ],
+  "fichiers": "2026-11/semaine-47/visuel-question-ia/"
+ },
+ {
+  "date": "2026-11-20T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story (conversion)",
+  "sujet": "Story rappel du guide gratuit (réponds GUIDE) — conversion douce de la semaine",
+  "uuids": [
+   "-983029417380132082"
+  ],
+  "fichiers": "2026-11/semaine-47/stories/"
  }
 ]
