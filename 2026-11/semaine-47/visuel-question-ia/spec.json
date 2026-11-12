@@ -1,0 +1,19 @@
+{
+ "name": "2026-11-20_visuel_question-ia",
+ "format": "post",
+ "slides": [
+  {
+   "type": "ask",
+   "kicker": "Question du vendredi",
+   "title": "Tu demandes quoi à ChatGPT pour ton établissement&nbsp;?",
+   "chips": [
+    "Jamais essayé",
+    "Mes publications",
+    "Mes réponses aux avis",
+    "Mes e-mails",
+    "Je m'en sers tous les jours"
+   ],
+   "action": "Dis-le-nous en commentaire"
+  }
+ ]
+}
