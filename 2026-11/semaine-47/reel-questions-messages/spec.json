@@ -1,14 +1,79 @@
 {
  "name": "2026-11-17_reel_questions-messages",
- "cover": {"kicker": "Messages privés", "title": "« Vous êtes ouverts <span>dimanche ?</span> »", "tags": ["Réponses automatiques", "Gratuit"]},
+ "cover": {
+  "kicker": "Messages privés",
+  "title": "« Vous êtes ouverts <span>dimanche ?</span> »",
+  "tags": [
+   "Réponses automatiques",
+   "Gratuit"
+  ]
+ },
  "scenes": [
-  {"type": "clip", "dur": 3.0, "src": "../../../kit/brand/story-bg/avatar-telephone-cuisine.jpg", "tag": "En plein service", "lines": ["« Vous êtes ouverts dimanche ? »", "*Encore cette question.*"]},
-  {"type": "hook", "dur": 2.6, "kicker": "Messages privés", "lines": ["Laisse la réponse", "partir toute seule"]},
-  {"type": "phone", "dur": 5.2, "title": "Le client demande, *la réponse part*", "name": "Client", "sub": "Instagram · exemple fictif", "messages": [
-     {"side": "in", "text": "Bonjour, vous avez un parking ?"},
-     {"side": "out", "text": "Bonjour ! Oui, un parking gratuit juste derrière. Horaires et menu : lien en bio."}]},
-  {"type": "list", "dur": 4.8, "theme": "light", "kicker": "Meta Business Suite", "title": "Rubrique *Automatisations*", "items": ["Note tes 3 questions les plus posées", "Écris une réponse courte pour chacune", "Active-les pour Messenger et Instagram"]},
-  {"type": "point", "dur": 4.2, "title": "Ce qui reste *humain*", "text": "Allergies, réclamations, groupes : c'est toi qui réponds.", "ex_label": "Réponse auto possible", "ex_text": "« Une allergie ? Le chef te répond lui-même très vite. »"},
-  {"type": "end", "dur": 4.0, "lines": ["Moins de messages à taper,", "plus de temps pour ta salle."], "cta": "Enregistre pour le faire ce soir"}
+  {
+   "type": "clip",
+   "dur": 3.0,
+   "src": "../../../kit/brand/story-bg/avatar-telephone-cuisine.jpg",
+   "tag": "En plein service",
+   "lines": [
+    "« Vous êtes ouverts dimanche ? »",
+    "*Encore cette question.*"
+   ]
+  },
+  {
+   "type": "hook",
+   "dur": 2.6,
+   "kicker": "Messages privés",
+   "lines": [
+    "Laisse la réponse",
+    "partir toute seule"
+   ]
+  },
+  {
+   "type": "phone",
+   "dur": 5.2,
+   "title": "Le client demande, *la réponse part*",
+   "name": "Client",
+   "sub": "Instagram · exemple fictif",
+   "messages": [
+    {
+     "side": "in",
+     "text": "Bonjour, vous avez un parking ?"
+    },
+    {
+     "side": "out",
+     "text": "Bonjour ! Oui, un parking gratuit juste derrière. Horaires et menu : lien en bio."
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "dur": 4.8,
+   "theme": "light",
+   "kicker": "Meta Business Suite",
+   "title": "Rubrique *Automatisations*",
+   "items": [
+    "Note tes 3 questions les plus posées",
+    "Écris une réponse courte pour chacune",
+    "Active-les pour Messenger et Instagram"
+   ]
+  },
+  {
+   "type": "point",
+   "dur": 4.2,
+   "title": "Ce qui reste *humain*",
+   "text": "Allergies, réclamations, groupes : c'est toi qui réponds.",
+   "ex_label": "Réponse auto possible",
+   "ex_text": "« Une allergie ? Le chef te répond lui-même très vite. »"
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Moins de messages à taper,",
+    "plus de temps pour ta salle."
+   ],
+   "cta": "Envoie-le à ton équipe",
+   "cta_icon": "send"
+  }
  ]
 }

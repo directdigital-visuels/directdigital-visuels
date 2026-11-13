@@ -25,7 +25,7 @@ Types de scènes ("dur" en secondes ; "theme": "light" possible sur toutes sauf 
   phone   {"title", "name", "sub", "messages": [{"side": "in|out", "text"}]}   conversation SMS / message dans un téléphone
   notif   {"title", "notifs": [{"app", "title", "text", "time"}]}              notifications qui tombent
   counter {"kicker", "from", "to", "decimals", "prefix", "suffix", "label"}    chiffre qui défile — UNIQUEMENT un chiffre réel et sourcé
-  end     {"lines": [...], "cta": "Enregistre pour t'en souvenir"}             phrase finale + une seule action
+  end     {"lines": [...], "cta": "Envoie-le à ton associé", "cta_icon": "send"}   (icône signet par défaut)             phrase finale + une seule action
 
 Dans les textes, *un mot entre étoiles* passe en bleu.
 Règles : « tu », jamais de chiffre / client / témoignage inventé, une seule action, 15 à 30 s au total.
@@ -155,6 +155,8 @@ body.light .cta{background:var(--blue);color:#fff} body.light .cta svg{stroke:#f
 CHECK = '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" style="animation-delay:{t:.2f}s"/></svg>'
 CROSS = '<svg viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17" style="animation-delay:{t:.2f}s"/></svg>'
 SAVE = '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563FF" stroke-width="2.4" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>'
+
+SEND = '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M22 2 11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg>'
 
 JS = """
 window.__tick = async (ms) => {
@@ -355,7 +357,7 @@ def sc_end(s, first):
         t = max(te, t + .45)
     if s.get('cta', True):
         cta = s.get('cta') if isinstance(s.get('cta'), str) else 'Enregistre pour t’en souvenir'
-        h += f'<div class="pop" {D(t + .2)}><div class="cta pulse" {D(t + .7)}>{SAVE}{esc(cta)}</div></div>'
+        h += f'<div class="pop" {D(t + .2)}><div class="cta pulse" {D(t + .7)}>{SEND if s.get('cta_icon') == 'send' else SAVE}{esc(cta)}</div></div>'
         cues.append((t + .2, 'ding'))
     return h, cues
 

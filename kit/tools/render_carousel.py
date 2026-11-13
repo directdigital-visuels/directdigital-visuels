@@ -26,6 +26,7 @@ CSS = os.path.join(KIT, 'templates', 'carousel.css')
 MARK = os.path.join(KIT, 'brand', 'mark.png')
 
 SAVE_ICON = '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563FF" stroke-width="2.4" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>'
+SEND_ICON = '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M22 2 11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg>'
 CHAT_ICON = '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563FF" stroke-width="2.4" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>'
 CHECK = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>'
 
@@ -80,7 +81,7 @@ def slide(s, i, tot, story):
             box = (f'<div class="ctabox"><div class="l">{fr(s.get("box_text","Écris ce mot<br>en message privé"))}</div>'
                    f'<div class="kw">{s["keyword"]}</div></div>')
         else:
-            box = f'<div class="save">{SAVE_ICON}{fr(s.get("action","Enregistre ce post"))}</div>'
+            box = f'<div class="save">{SEND_ICON if s.get("action","").startswith("Envoie") else SAVE_ICON}{fr(s.get("action","Enregistre ce post"))}</div>'
         foot = f'<div class="foot">{fr(s["foot"])}</div>' if s.get('foot') else ''
         return (f'<div class="s dark" id="s{i}"{st}>{top(1,i,tot)}<div class="kicker">{fr(s.get("kicker",""))}</div>'
                 f'<h2>{fr(s["title"])}</h2><p class="lead" style="font-size:34px">{fr(s.get("lead",""))}</p>'
