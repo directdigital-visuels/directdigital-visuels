@@ -40,3 +40,7 @@ Cible CHR : ne jamais publier pendant les services (11 h 30-14 h 30 et 19 h-22 h
 - **Une story à sondage par semaine** (lundi) : rendue avec `"sticker_space": true`, sans options imprimées, programmée en `autoPublish: false` (notification) pour que Yohan ajoute l'autocollant Sondage. Indiquer les choix du sondage dans le récapitulatif.
 - **Visage dans les 3 premières secondes** de chaque réel (scène `clip`). Si Yohan fournit de courtes vidéos de lui, les utiliser en priorité.
 - Collaborations / mentions d'un établissement : uniquement avec un partenaire réel et son accord, jamais inventé.
+
+## Stratégie d'acquisition (13/11) — à lire avant de choisir les sujets
+`kit/strategie/STRATEGIE.md` fixe la cible (restaurants, cafés, bars et petits hôtels indépendants de Toulouse), le rôle du compte et **la répartition hebdomadaire des contenus (section 5), qui remplace l'ancienne règle « 1 post sur 3 ouvert aux TPE/PME »**. Le rythme et les horaires ne changent pas.
+À chaque production hebdomadaire : appliquer la section 5, remplir la ligne de la semaine écoulée dans `kit/strategie/tableau-de-bord.md` avec les chiffres Metricool, et demander à Yohan dans le récapitulatif ses 3 chiffres (demandes GUIDE, conversations ouvertes, diagnostics réservés) ainsi que les problèmes entendus en prospection.

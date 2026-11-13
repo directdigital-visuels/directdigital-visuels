@@ -37,3 +37,14 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Présentation du fondateur : qui est derrière Direct Digital (carrousel, 07/11)
 - [ ] Coulisses : une automatisation testée, ce qui a marché / raté
 - [ ] Pourquoi les cafés, hôtels et restaurants
+
+## Preuve (un contenu par semaine, le mercredi — voir kit/strategie/STRATEGIE.md)
+- [ ] Objection : « Je n'ai pas le temps de m'occuper de ça »
+- [ ] Objection : « C'est trop technique pour moi »
+- [ ] Objection : « Mes clients vont sentir que c'est un robot »
+- [ ] Coulisses : une automatisation montée par Yohan, étape par étape (capture réelle à fournir)
+- [ ] Une question réellement posée par un gérant cette semaine (à fournir par Yohan)
+
+## Décision (le vendredi, en alternance avec le guide)
+- [ ] Le diagnostic de 20 minutes : ce que tu prépares, ce que tu obtiens, et pourquoi la réponse est parfois non
+- [ ] 3 tâches que je déconseille d'automatiser dans un restaurant
