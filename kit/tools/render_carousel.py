@@ -81,7 +81,7 @@ def slide(s, i, tot, story):
             box = (f'<div class="ctabox"><div class="l">{fr(s.get("box_text","Écris ce mot<br>en message privé"))}</div>'
                    f'<div class="kw">{s["keyword"]}</div></div>')
         else:
-            box = f'<div class="save">{SEND_ICON if s.get("action","").startswith("Envoie") else SAVE_ICON}{fr(s.get("action","Enregistre ce post"))}</div>'
+            box = f'<div class="save">{SEND_ICON if s.get("action","").startswith("Envoie") else (CHAT_ICON if s.get("action","").startswith(("Écris","Ecris")) else SAVE_ICON)}{fr(s.get("action","Enregistre ce post"))}</div>'
         foot = f'<div class="foot">{fr(s["foot"])}</div>' if s.get('foot') else ''
         return (f'<div class="s dark" id="s{i}"{st}>{top(1,i,tot)}<div class="kicker">{fr(s.get("kicker",""))}</div>'
                 f'<h2>{fr(s["title"])}</h2><p class="lead" style="font-size:34px">{fr(s.get("lead",""))}</p>'

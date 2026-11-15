@@ -1,0 +1,3 @@
+{"name": "2026-11-17_linkedin_tri-messages", "format": "post", "slides": [
+ {"type": "ask", "kicker": "Restaurants · Hôtels · Messages entrants", "title": "Vos messages privés <span class=\"hl\">peuvent se trier seuls.</span>", "chips": ["Question simple → réponse automatique", "Demande de groupe → formulaire + tableau", "Allergie, réclamation → alerte à un humain"], "action": "Le tri est automatique, la décision reste humaine"}
+]}

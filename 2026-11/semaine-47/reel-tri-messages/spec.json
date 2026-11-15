@@ -1,0 +1,16 @@
+{
+ "name": "2026-11-17_reel_tri-messages",
+ "cover": {"kicker": "Messages privés", "title": "Tes messages <span>se trient tout seuls.</span>", "tags": ["Instagram et Messenger", "Niveau intermédiaire"]},
+ "scenes": [
+  {"type": "clip", "dur": 3.0, "src": "../../../kit/brand/story-bg/avatar-telephone-cuisine.jpg", "tag": "En plein service", "lines": ["Des messages non lus…", "*dont une privatisation.*"]},
+  {"type": "hook", "dur": 2.6, "kicker": "Messages privés", "lines": ["Trie-les", "automatiquement"]},
+  {"type": "phone", "dur": 5.0, "title": "La demande arrive, *le tri commence*", "name": "Client", "sub": "Instagram · exemple fictif", "messages": [
+     {"side": "in", "text": "Bonjour, une privatisation pour 25 personnes le 12 décembre ?"},
+     {"side": "out", "text": "Avec plaisir ! Remplis ce formulaire en 2 minutes, on te répond sous 24 h."}]},
+  {"type": "list", "dur": 5.4, "theme": "light", "kicker": "3 règles dans ManyChat", "title": "Un *mot-clé*, une action", "items": ["« horaires », « parking » → réponse automatique", "« groupe », « privatisation » → formulaire + ligne dans Google Sheets", "« allergie », « réclamation » → alerte sur ton téléphone"]},
+  {"type": "notif", "dur": 4.6, "title": "Toi, tu reçois *l'essentiel*", "notifs": [
+     {"app": "Google Sheets", "title": "Nouvelle demande de groupe", "text": "25 personnes, 12/12 (exemple fictif)", "time": "16:02"},
+     {"app": "Alerte", "title": "À traiter toi-même", "text": "« Allergie aux fruits à coque » (exemple fictif)", "time": "16:05"}]},
+  {"type": "end", "dur": 4.0, "lines": ["Les messages se trient seuls,", "tu gardes les vrais échanges."], "cta": "Envoie-le à ton équipe", "cta_icon": "send"}
+ ]
+}
