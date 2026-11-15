@@ -428,13 +428,13 @@
    "facebook"
   ],
   "format": "reel",
-  "sujet": "Questions répétitives en message privé : réponses automatiques Meta Business Suite (réel hybride v2, accroche photo avatar ; son intégré)",
+  "sujet": "Tri automatique des messages privés avec ManyChat : mots-clés, formulaire + Google Sheets, alerte humaine (réel v2, niveau intermédiaire, remplace la version Meta Business Suite le 15/11)",
   "uuids": [
    "-769198990828483496",
    "-7500970876742320099"
   ],
   "fichiers": [
-   "2026-11/semaine-47/reel-questions-messages/2026-11-17_reel_questions-messages.mp4"
+   "2026-11/semaine-47/reel-tri-messages/2026-11-17_reel_tri-messages.mp4"
   ]
  },
  {
@@ -530,5 +530,63 @@
    "-983029417380132082"
   ],
   "fichiers": "2026-11/semaine-47/stories/"
+ },
+ {
+  "date": "2026-11-20T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Briefing automatique du matin à 9 h (réservations, avis, messages, stock) — démonstration niveau avancé, CTA « écris-moi en message privé » (remplace le visuel question le 15/11)",
+  "uuids": [
+   "-6570157965944665466",
+   "4637741680306372871"
+  ],
+  "fichiers": [
+   "2026-11/semaine-47/carrousel-briefing-matin/"
+  ]
+ },
+ {
+  "date": "2026-11-20T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Question : combien d'applis ouvertes chaque matin (remplace la story guide le 15/11)",
+  "uuids": [
+   "-983029417380132082"
+  ],
+  "fichiers": [
+   "2026-11/semaine-47/stories/2026-11-20_story_applis-matin.png"
+  ]
+ },
+ {
+  "date": "2026-11-17T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : tri automatique des messages privés (restaurants, hôtels)",
+  "uuids": [
+   "-8481904710102925038"
+  ],
+  "fichiers": [
+   "2026-11/linkedin/2026-11-17_linkedin_tri-messages_1.png"
+  ]
+ },
+ {
+  "date": "2026-11-19T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : briefing automatique du matin à 9 h",
+  "uuids": [
+   "-9107575488545731706"
+  ],
+  "fichiers": [
+   "2026-11/linkedin/2026-11-19_linkedin_briefing-matin_1.png"
+  ]
  }
 ]
