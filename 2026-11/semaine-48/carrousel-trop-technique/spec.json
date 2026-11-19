@@ -1,0 +1,54 @@
+{
+ "name": "2026-11-25_carrousel_trop-technique",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Objection fréquente",
+   "title": "« L'automatisation, <span class=\"hl\">c'est trop technique</span> pour moi. »",
+   "lead": "Voilà ce que tu as vraiment à faire… et tout ce que tu n'as pas à toucher."
+  },
+  {
+   "type": "text",
+   "kicker": "Ce que tu fais",
+   "title": "Tu décris ta tâche, avec tes mots",
+   "body": "« Le soir, je recopie les réservations du site dans mon cahier. » C'est tout ce qu'il faut pour commencer. Aucun vocabulaire technique."
+  },
+  {
+   "type": "text",
+   "kicker": "Ce que tu ne touches pas",
+   "title": "Les connexions, les règles, les tests",
+   "body": "Make, n8n, formulaires, tableaux : c'est le travail de mise en place, et c'est le mien. Toi, tu vois le résultat dans les outils que tu utilises déjà."
+  },
+  {
+   "type": "task",
+   "label": "Au quotidien · exemple fictif",
+   "title": "Ce que tu vois, concrètement",
+   "problem": "tu ne veux pas apprendre un nouveau logiciel.",
+   "actions": [
+    "Un e-mail récapitulatif dans ta boîte habituelle",
+    "Une ligne de plus dans un tableau Google Sheets",
+    "Une notification quand une décision t'attend"
+   ],
+   "tools": [
+    "Gmail ou Outlook",
+    "Google Sheets"
+   ],
+   "level": "Sur mesure"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Ce qui reste entre tes mains",
+   "title": "Tu valides, <span class=\"hl\">tu peux tout arrêter</span>",
+   "body": "Rien ne part à un client sans ton accord, sauf si tu le décides. Et si un jour ça ne te convient plus, je coupe l'automatisation : tu reviens à ta méthode d'avant."
+  },
+  {
+   "type": "cta",
+   "kicker": "À faire suivre",
+   "title": "Tu connais un gérant qui pense que c'est trop technique ?",
+   "lead": "Montre-lui ce qu'il aurait vraiment à faire.",
+   "action": "Envoie ce post"
+  }
+ ]
+}

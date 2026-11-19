@@ -1,0 +1,13 @@
+{
+ "name": "2026-11-23_story_inventaire",
+ "bg": "../../../kit/brand/story-bg/bg_bar.jpg",
+ "tag": "Question du soir 👀",
+ "lines": [
+  "Ton inventaire",
+  "de fin de mois,",
+  "tu le fais comment ?"
+ ],
+ "hl": "inventaire",
+ "foot": "Vote juste au-dessus 👆",
+ "sticker_space": true
+}

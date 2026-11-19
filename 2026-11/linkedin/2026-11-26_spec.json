@@ -1,0 +1,17 @@
+{
+ "name": "2026-11-26_linkedin_demandes-hotel",
+ "format": "post",
+ "slides": [
+  {
+   "type": "ask",
+   "kicker": "Hôtels indépendants · Niveau avancé",
+   "title": "« Vous avez de la place ? »<br><span class=\"hl\">Le brouillon est déjà prêt.</span>",
+   "chips": [
+    "L'IA lit les dates et le nombre de personnes",
+    "Le tableau des disponibilités est consulté",
+    "Vous relisez, puis vous envoyez"
+   ],
+   "action": "Une automatisation relue par vous"
+  }
+ ]
+}

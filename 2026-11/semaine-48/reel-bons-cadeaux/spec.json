@@ -1,0 +1,85 @@
+{
+ "name": "2026-11-24_reel_bons-cadeaux",
+ "audio": true,
+ "cover": {
+  "kicker": "Bons cadeaux",
+  "title": "Tes bons cadeaux, <span>sans rien recopier.</span>",
+  "tags": [
+   "Google Forms + Make",
+   "Niveau intermédiaire"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "dur": 3.0,
+   "src": "../../../kit/brand/story-bg/chef-au-telephone-cuisine.jpg",
+   "tag": "Décembre, en plein rush",
+   "lines": [
+    "« Vous faites des *bons cadeaux* ? »",
+    "Le téléphone sonne encore."
+   ]
+  },
+  {
+   "type": "hook",
+   "dur": 2.6,
+   "kicker": "Bons cadeaux",
+   "lines": [
+    "Vends-les",
+    "sans y passer tes soirées"
+   ]
+  },
+  {
+   "type": "phone",
+   "dur": 4.6,
+   "title": "La demande arrive *par message*",
+   "name": "Client",
+   "sub": "Instagram · exemple fictif",
+   "messages": [
+    {
+     "side": "in",
+     "text": "Bonjour, un bon cadeau de 80 € pour un dîner, c'est possible ?"
+    },
+    {
+     "side": "out",
+     "text": "Oui ! Remplis ce formulaire, ton bon arrive par e-mail dès que le paiement est validé."
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "dur": 5.4,
+   "theme": "light",
+   "kicker": "Niveau intermédiaire",
+   "title": "Du formulaire *au bon PDF*",
+   "items": [
+    "Formulaire : montant, nom, petit message",
+    "Tu valides le paiement → Make crée le bon numéroté",
+    "Le PDF part par e-mail + une ligne dans Google Sheets"
+   ]
+  },
+  {
+   "type": "notif",
+   "dur": 4.2,
+   "title": "Le jour où il revient, *tu retrouves le bon*",
+   "notifs": [
+    {
+     "app": "Google Sheets",
+     "title": "Bon n° 2026-014 (exemple fictif)",
+     "text": "80 € · statut : non utilisé",
+     "time": "20:12"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Tes bons cadeaux,",
+    "sans rien recopier."
+   ],
+   "cta": "Envoie-le à ton associé",
+   "cta_icon": "send"
+  }
+ ]
+}

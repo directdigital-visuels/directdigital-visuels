@@ -1,0 +1,95 @@
+{
+ "name": "2026-11-26_reel_demandes-hotel",
+ "audio": true,
+ "cover": {
+  "kicker": "Petits hôtels",
+  "title": "« Vous avez de la place ? » <span>Le brouillon est prêt.</span>",
+  "tags": [
+   "Gmail + ChatGPT ou Claude",
+   "Niveau avancé"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "dur": 3.0,
+   "src": "../../../kit/brand/story-bg/avatar-espresso-bar.jpg",
+   "tag": "Hôtel, 7 h du matin",
+   "lines": [
+    "Ta boîte mail déborde de",
+    "*« Vous avez de la place ? »*"
+   ]
+  },
+  {
+   "type": "hook",
+   "dur": 2.6,
+   "kicker": "Petits hôtels",
+   "lines": [
+    "L'IA prépare",
+    "la réponse"
+   ]
+  },
+  {
+   "type": "notif",
+   "dur": 4.4,
+   "title": "Les demandes *arrivent*",
+   "notifs": [
+    {
+     "app": "Gmail",
+     "title": "Disponibilité du 12 au 14 mars ?",
+     "text": "2 adultes, 1 enfant (exemple fictif)",
+     "time": "06:48"
+    },
+    {
+     "app": "Gmail",
+     "title": "Une chambre pour ce week-end ?",
+     "text": "Avec parking si possible (exemple fictif)",
+     "time": "07:02"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "dur": 5.6,
+   "theme": "light",
+   "kicker": "Niveau avancé · Make ou n8n",
+   "title": "Le *brouillon* est prêt",
+   "items": [
+    "L'IA lit les dates et le nombre de personnes",
+    "Elle consulte ton tableau des disponibilités (ou ton logiciel, s'il le permet)",
+    "Un brouillon de réponse t'attend dans Gmail"
+   ]
+  },
+  {
+   "type": "compare",
+   "dur": 4.6,
+   "title": "Avant, *après*",
+   "left": {
+    "label": "Avant",
+    "items": [
+     "Tu lis chaque e-mail",
+     "Tu cherches dans le planning",
+     "Tu tapes toute la réponse"
+    ]
+   },
+   "right": {
+    "label": "Après",
+    "items": [
+     "Le brouillon est prêt",
+     "Tu relis le tarif",
+     "Tu cliques sur Envoyer"
+    ]
+   }
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Tu réponds vite,",
+    "sans perdre ta touche."
+   ],
+   "cta": "Envoie-le à un hôtelier",
+   "cta_icon": "send"
+  }
+ ]
+}

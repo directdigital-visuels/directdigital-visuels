@@ -1,0 +1,83 @@
+{
+ "name": "2026-11-27_carrousel_commandes-noel",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Restaurants et cafés · Fêtes",
+   "title": "Commandes de Noël à emporter : <span class=\"hl\">la cuisine sait quoi préparer</span>",
+   "lead": "Démonstration d'une automatisation avancée que je mets en place. Exemple fictif."
+  },
+  {
+   "type": "text",
+   "kicker": "Le problème",
+   "title": "Des commandes partout, un seul cahier",
+   "body": "Téléphone, message privé, comptoir : les plateaux et les bûches s'empilent. Le 24 au matin, il manque une ligne… et un client attend."
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Le déclencheur",
+   "title": "Une seule porte d'entrée",
+   "problem": "chaque commande est notée à un endroit différent.",
+   "actions": [
+    "Un formulaire : produit, quantité, jour et heure de retrait",
+    "Les commandes prises au téléphone passent par le même formulaire",
+    "Chaque commande devient une ligne dans Google Sheets"
+   ],
+   "tools": [
+    "Google Forms",
+    "Google Sheets"
+   ],
+   "level": "Avancé"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Les règles",
+   "title": "Le tableau s'organise tout seul",
+   "problem": "le soir, tu recomptes tout à la main.",
+   "actions": [
+    "Totaux à produire par jour et par produit",
+    "Commande au-delà de ta capacité du jour → alerte",
+    "C'est toi qui acceptes ou refuses la commande"
+   ],
+   "tools": [
+    "Make ou n8n",
+    "Google Sheets"
+   ],
+   "level": "Avancé"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Les actions",
+   "title": "Le client et la cuisine sont prévenus",
+   "problem": "les oublis se découvrent le jour du retrait.",
+   "actions": [
+    "Confirmation au client dès que tu as validé",
+    "Rappel par e-mail la veille, avec l'heure de retrait",
+    "Chaque matin à 8 h, la liste de production du jour"
+   ],
+   "tools": [
+    "Make ou n8n",
+    "Gmail ou Outlook"
+   ],
+   "level": "Sur mesure"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Ce qui reste humain",
+   "title": "Tu acceptes, <span class=\"hl\">tu gères les imprévus</span>",
+   "body": "Les allergies, les changements de dernière minute et les remboursements restent entre tes mains. L'automatisation tient la liste, pas la relation client."
+  },
+  {
+   "type": "cta",
+   "kicker": "Avant le rush",
+   "title": "Tu veux le même système pour tes fêtes ?",
+   "lead": "Écris-moi en message privé, c'est moi, Yohan, qui réponds. On regarde ensemble ce qui est faisable chez toi.",
+   "action": "Écris-moi en message privé"
+  }
+ ]
+}

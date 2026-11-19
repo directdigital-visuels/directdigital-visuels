@@ -1,0 +1,17 @@
+{
+ "name": "2026-11-24_linkedin_bons-cadeaux",
+ "format": "post",
+ "slides": [
+  {
+   "type": "ask",
+   "kicker": "Restaurants · Hôtels · Fêtes",
+   "title": "Bons cadeaux : <span class=\"hl\">vendus sans rien recopier</span>.",
+   "chips": [
+    "Formulaire : montant, nom, message",
+    "Bon PDF numéroté, après validation du paiement",
+    "Suivi des bons dans Google Sheets"
+   ],
+   "action": "Niveau intermédiaire, relu par vous"
+  }
+ ]
+}

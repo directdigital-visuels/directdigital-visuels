@@ -1,0 +1,82 @@
+{
+ "name": "2026-11-23_carrousel_inventaire",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Restaurants, cafés, bars",
+   "title": "L'inventaire de fin de mois, <span class=\"hl\">sans recopier une seule ligne</span>",
+   "lead": "Tu comptes, le tableau calcule, le récap part après ton feu vert. Automatisation de niveau intermédiaire."
+  },
+  {
+   "type": "text",
+   "kicker": "Le problème",
+   "title": "Compter, recopier, calculer… à minuit",
+   "body": "Le soir du 30, tu comptes la réserve sur un carnet. Puis tu recopies tout dans un tableur et tu cherches pourquoi le total ne colle pas."
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Étape 1 · Le déclencheur",
+   "title": "Tu comptes sur ton téléphone",
+   "problem": "les quantités sont notées sur papier, puis recopiées.",
+   "actions": [
+    "Un formulaire par zone : chambre froide, cave, réserve",
+    "Les produits sont déjà listés : tu tapes juste la quantité",
+    "Chaque réponse arrive seule dans Google Sheets"
+   ],
+   "tools": [
+    "Google Forms",
+    "Google Sheets"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Étape 2 · Les règles",
+   "title": "Le tableau calcule tout seul",
+   "problem": "personne n'a le temps de refaire les calculs.",
+   "actions": [
+    "Quantité × prix d'achat = valeur du stock",
+    "Comparaison automatique avec le mois précédent",
+    "Écart au-delà du seuil que tu fixes → ligne en rouge"
+   ],
+   "tools": [
+    "Google Sheets"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Étape 3 · L'action",
+   "title": "Le récap arrive, tu valides",
+   "problem": "le comptable relance pour avoir les chiffres.",
+   "actions": [
+    "Make prépare un résumé : valeur totale et écarts en rouge",
+    "Il arrive d'abord dans ta boîte mail",
+    "Tu vérifies les lignes rouges, puis tu transfères au comptable"
+   ],
+   "tools": [
+    "Make",
+    "Gmail ou Outlook"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Ce qui reste humain",
+   "title": "Le tableau calcule, <span class=\"hl\">toi tu comptes et tu vérifies</span>",
+   "body": "Une casse, une erreur de saisie, une livraison oubliée : un écart se comprend sur place. L'automatisation te montre où regarder, pas quoi conclure."
+  },
+  {
+   "type": "cta",
+   "kicker": "À garder",
+   "title": "Ton prochain inventaire, c'est le 30.",
+   "lead": "Garde la méthode sous la main pour ce soir-là.",
+   "action": "Enregistre ce post"
+  }
+ ]
+}
