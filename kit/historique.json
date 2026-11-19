@@ -588,5 +588,149 @@
   "fichiers": [
    "2026-11/linkedin/2026-11-19_linkedin_briefing-matin_1.png"
   ]
+ },
+ {
+  "date": "2026-11-23T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Inventaire de fin de mois : Google Forms par zone → Google Sheets (valeur, écarts en rouge) → résumé Make par e-mail, vérifié avant envoi au comptable (niveau intermédiaire, CTA « Enregistre ce post »)",
+  "uuids": [
+   "8604261264067087539",
+   "-9125132218827584029"
+  ],
+  "fichiers": "2026-11/semaine-48/carrousel-inventaire/"
+ },
+ {
+  "date": "2026-11-23T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story à sondage (notification, autoPublish false)",
+  "sujet": "Story sondage : ton inventaire de fin de mois, tu le fais comment ?",
+  "uuids": [
+   "-7968278320120705349"
+  ],
+  "fichiers": [
+   "2026-11/semaine-48/stories/2026-11-23_story_inventaire.png"
+  ]
+ },
+ {
+  "date": "2026-11-24T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : bons cadeaux vendus sans rien recopier",
+  "uuids": [
+   "8697659347177981356"
+  ],
+  "fichiers": [
+   "2026-11/linkedin/2026-11-24_linkedin_bons-cadeaux_1.png"
+  ]
+ },
+ {
+  "date": "2026-11-24T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Bons cadeaux : formulaire → paiement validé par toi → bon PDF numéroté (Make) envoyé par e-mail → suivi Google Sheets (réel hybride v2, niveau intermédiaire, accroche chef au téléphone)",
+  "uuids": [
+   "5389570715696514959",
+   "-3631376510011421416"
+  ],
+  "fichiers": [
+   "2026-11/semaine-48/reel-bons-cadeaux/2026-11-24_reel_bons-cadeaux.mp4"
+  ]
+ },
+ {
+  "date": "2026-11-25T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel (preuve)",
+  "sujet": "Objection « c'est trop technique » : ce que tu fais / ce que tu ne touches pas / ce que tu vois / tu peux tout arrêter (CTA « Envoie ce post »)",
+  "uuids": [
+   "-7569063829150940903",
+   "-5292975544729713135"
+  ],
+  "fichiers": "2026-11/semaine-48/carrousel-trop-technique/"
+ },
+ {
+  "date": "2026-11-25T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : qu'est-ce qui te freine le plus pour automatiser une tâche ?",
+  "uuids": [
+   "858950865844456909"
+  ],
+  "fichiers": [
+   "2026-11/semaine-48/stories/2026-11-25_story_frein.png"
+  ]
+ },
+ {
+  "date": "2026-11-26T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : demandes de disponibilité hôtel, brouillon prêt dans Gmail",
+  "uuids": [
+   "-279812324315543474"
+  ],
+  "fichiers": [
+   "2026-11/linkedin/2026-11-26_linkedin_demandes-hotel_1.png"
+  ]
+ },
+ {
+  "date": "2026-11-26T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Petit hôtel : e-mails « Vous avez de la place ? » → l'IA lit dates et personnes → tableau des disponibilités → brouillon Gmail relu (réel hybride v2, niveau avancé, accroche avatar espresso)",
+  "uuids": [
+   "-7632386141744053677",
+   "164402604080579534"
+  ],
+  "fichiers": [
+   "2026-11/semaine-48/reel-demandes-hotel/2026-11-26_reel_demandes-hotel.mp4"
+  ]
+ },
+ {
+  "date": "2026-11-27T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel (décision)",
+  "sujet": "Commandes de Noël à emporter : formulaire unique → Google Sheets (totaux, alerte capacité) → confirmation, rappel la veille, liste de production à 8 h (démonstration avancée, exemple fictif, CTA « Écris-moi en message privé »)",
+  "uuids": [
+   "1837945323342086660",
+   "-2370766974779833198"
+  ],
+  "fichiers": "2026-11/semaine-48/carrousel-commandes-noel/"
+ },
+ {
+  "date": "2026-11-27T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : tes commandes de Noël à emporter, tu les notes où ?",
+  "uuids": [
+   "5999342067744394331"
+  ],
+  "fichiers": [
+   "2026-11/semaine-48/stories/2026-11-27_story_commandes-noel.png"
+  ]
  }
 ]

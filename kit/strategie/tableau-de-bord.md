@@ -20,4 +20,4 @@ Sources : messages, conversations et diagnostics = CRM (récapitulatif prospecti
 ## Expériences
 | Début | Observation | Hypothèse | Test | Mesure | Décision |
 |---|---|---|---|---|---|
-| 16/11 | Les appels « enregistre » obtiennent 0 enregistrement | Demander d'envoyer le contenu à quelqu'un génère des partages, donc de la portée hors abonnés | S47 : réels et carrousel du lundi en « envoie », carrousel du mercredi en « enregistre » | Partages, enregistrements, portée par publication | À décider après 3 semaines |
+| 16/11 | Les appels « enregistre » obtiennent 0 enregistrement | Demander d'envoyer le contenu à quelqu'un génère des partages, donc de la portée hors abonnés | S47 : réels et carrousel du lundi en « envoie », carrousel du mercredi en « enregistre » | Partages, enregistrements, portée par publication | À décider après 3 semaines (S48 : carrousel du lundi en « enregistre », carrousel du mercredi en « envoie », réels en « envoie ») |

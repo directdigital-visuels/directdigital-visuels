@@ -15,7 +15,10 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Horaires exceptionnels (jours fériés, fermetures) : penser à mettre à jour la fiche Google, avec un rappel automatique (carrousel, 26/10)
 - [x] Planning du personnel : envoi automatique du planning de la semaine à l'équipe (Reel TPE/PME, 12/11)
 - [x] Clients fidèles : une lettre d'information mensuelle préparée par l'IA (carrousel, 16/11)
-- [ ] Inventaire de fin de mois dans un tableau partagé
+- [x] Inventaire de fin de mois dans un tableau partagé (carrousel, 23/11)
+- [x] Bons cadeaux de fin d'année : formulaire → bon PDF numéroté → suivi (Reel, 24/11)
+- [x] Hôtel : demandes de disponibilité par e-mail → brouillon de réponse préparé par l'IA (Reel, 26/11)
+- [x] Commandes de Noël à emporter : formulaire unique, liste de production du jour (carrousel décision, 27/11)
 
 ## Comprendre l'IA (version CHR)
 - [x] IA, automatisation, agent IA : version restaurant (Reel, 21/10)
@@ -40,7 +43,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 
 ## Preuve (un contenu par semaine, le mercredi — voir kit/strategie/STRATEGIE.md)
 - [ ] Objection : « Je n'ai pas le temps de m'occuper de ça »
-- [ ] Objection : « C'est trop technique pour moi »
+- [x] Objection : « C'est trop technique pour moi » (carrousel preuve, 25/11)
 - [ ] Objection : « Mes clients vont sentir que c'est un robot »
 - [ ] Coulisses : une automatisation montée par Yohan, étape par étape (capture réelle à fournir)
 - [ ] Une question réellement posée par un gérant cette semaine (à fournir par Yohan)
