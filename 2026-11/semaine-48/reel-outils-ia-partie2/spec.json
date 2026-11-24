@@ -1,0 +1,12 @@
+{
+ "name": "2026-11-27_reel_outils-ia-partie2",
+ "cover": {"kicker": "Outils 2026 · Partie 2", "title": "6 autres outils <span>pour t'équiper</span>", "tags": ["Restaurants", "Cafés", "Hôtels"]},
+ "scenes": [
+  {"type": "clip", "dur": 3.0, "src": "../../../kit/brand/story-bg/chef-au-telephone-cuisine.jpg", "tag": "Partie 2", "lines": ["6 autres outils", "pour ton *restaurant*"]},
+  {"type": "hook", "dur": 2.5, "kicker": "Outils 2026", "lines": ["Les plus connus,", "rangés par usage"]},
+  {"type": "list", "dur": 5.2, "kicker": "En salle", "title": "Remplir *la salle*", "items": ["Réservations : Zenchef, TheFork Manager", "Caisse : Lightspeed, Zelty", "Gestion d'hôtel : Mews, Cloudbeds"]},
+  {"type": "list", "dur": 5.2, "theme": "light", "kicker": "Au bureau", "title": "Gagner du temps *en coulisses*", "items": ["Planning d'équipe : Skello, Combo", "Factures et compta : Pennylane", "Visuels et vidéos : Canva, CapCut"]},
+  {"type": "point", "dur": 3.8, "title": "Par où *commencer* ?", "text": "Une seule tâche, un seul outil. Puis tu relis : prix, plannings, allergènes."},
+  {"type": "end", "dur": 3.8, "lines": ["La partie 1 ?", "Dans mes publications."], "cta": "Envoie-le à ton associé", "cta_icon": "send"}
+ ]
+}
