@@ -764,5 +764,145 @@
   "fichiers": [
    "2026-11/semaine-48/reel-outils-ia-partie2/2026-11-27_reel_outils-ia-partie2.mp4"
   ]
+ },
+ {
+  "date": "2026-11-30T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel",
+  "sujet": "Appels manqués pendant le service : standard virtuel (offre payante) → Make → SMS avec lien de réservation + liste « À rappeler » Google Sheets, le restaurateur rappelle (niveau intermédiaire, CTA « Envoie ce post »)",
+  "uuids": [
+   "-544390513752912275",
+   "-5303692455369817791"
+  ],
+  "fichiers": "2026-11/semaine-49/carrousel-appels-manques/"
+ },
+ {
+  "date": "2026-11-30T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story à sondage (notification, autoPublish false)",
+  "sujet": "Story sondage : pendant le service, quand le téléphone sonne, tu fais quoi ?",
+  "uuids": [
+   "-374388513692892160"
+  ],
+  "fichiers": [
+   "2026-11/semaine-49/stories/2026-11-30_story_telephone-service.png"
+  ]
+ },
+ {
+  "date": "2026-12-01T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : réveillon, l'acompte se gère tout seul",
+  "uuids": [
+   "-3500920257658338200"
+  ],
+  "fichiers": [
+   "2026-12/linkedin/2026-12-01_linkedin_reveillon-acompte_1.png"
+  ]
+ },
+ {
+  "date": "2026-12-01T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Réveillon : acompte (logiciel de réservation d'abord, sinon formulaire → lien de paiement Stripe/SumUp → table confirmée Google Sheets → rappel J-2), annulations et allergies gérées par le restaurateur (réel hybride v2, niveau intermédiaire, accroche photo chef au téléphone)",
+  "uuids": [
+   "2271918118337725952",
+   "2007554425304336114"
+  ],
+  "fichiers": "2026-11/semaine-49/reel-reveillon-acompte/"
+ },
+ {
+  "date": "2026-12-02T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel (preuve)",
+  "sujet": "Objection « mes clients vont sentir que c'est un robot » : tes mots, logistique pas relation, quelqu'un derrière (CTA « Enregistre ce post »)",
+  "uuids": [
+   "-2240429358226060198",
+   "6164890271366860255"
+  ],
+  "fichiers": "2026-11/semaine-49/carrousel-robot/"
+ },
+ {
+  "date": "2026-12-02T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : un message automatique, ça te dérange quand c'est toi le client ?",
+  "uuids": [
+   "7837575253714223402"
+  ],
+  "fichiers": [
+   "2026-11/semaine-49/stories/2026-12-02_story_message-automatique.png"
+  ]
+ },
+ {
+  "date": "2026-12-03T08:30",
+  "reseaux": [
+   "linkedin"
+  ],
+  "format": "visuel",
+  "sujet": "Page : hôtel, demandes spéciales jamais oubliées",
+  "uuids": [
+   "871021818848627535"
+  ],
+  "fichiers": [
+   "2026-12/linkedin/2026-12-03_linkedin_demandes-speciales_1.png"
+  ]
+ },
+ {
+  "date": "2026-12-03T15:30",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "reel",
+  "sujet": "Petit hôtel : demandes spéciales (lit bébé, arrivée tardive, anniversaire) repérées par l'IA → tableau « Demandes du jour » envoyé à l'équipe à 8 h, santé/allergies en alerte directe (réel hybride v2, niveau avancé, accroche photo bar)",
+  "uuids": [
+   "-6329747008172834447",
+   "5787246915963076612"
+  ],
+  "fichiers": "2026-11/semaine-49/reel-demandes-speciales-hotel/"
+ },
+ {
+  "date": "2026-12-04T16:00",
+  "reseaux": [
+   "instagram",
+   "facebook"
+  ],
+  "format": "carrousel (décision)",
+  "sujet": "Factures fournisseurs : extraction IA des lignes, comparaison livré / prix / avoirs dans Google Sheets, écarts en rouge + brouillon au fournisseur, vérification humaine (démonstration avancée, exemple fictif, CTA « écris-moi en message privé »)",
+  "uuids": [
+   "-2194384398730115576",
+   "-2073136472359417845"
+  ],
+  "fichiers": "2026-11/semaine-49/carrousel-factures-ecarts/"
+ },
+ {
+  "date": "2026-12-04T18:00",
+  "reseaux": [
+   "instagram"
+  ],
+  "format": "story",
+  "sujet": "Story question : tes factures fournisseurs, tu les vérifies ligne par ligne ?",
+  "uuids": [
+   "1865957821092021626"
+  ],
+  "fichiers": [
+   "2026-11/semaine-49/stories/2026-12-04_story_factures.png"
+  ]
  }
 ]

@@ -19,6 +19,10 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 - [x] Bons cadeaux de fin d'année : formulaire → bon PDF numéroté → suivi (Reel, 24/11)
 - [x] Hôtel : demandes de disponibilité par e-mail → brouillon de réponse préparé par l'IA (Reel, 26/11)
 - [x] Commandes de Noël à emporter : formulaire unique, liste de production du jour (carrousel décision, 27/11)
+- [x] Appels manqués pendant le service : SMS automatique + liste à rappeler (carrousel, 30/11)
+- [x] Réveillon : acompte, confirmation et rappel automatiques (Reel, 01/12)
+- [x] Hôtel : demandes spéciales (lit bébé, arrivée tardive) repérées par l'IA et transmises à l'équipe (Reel, 03/12)
+- [x] Factures fournisseurs : contrôle automatique des écarts livré / facturé (carrousel décision, 04/12)
 
 ## Comprendre l'IA (version CHR)
 - [x] IA, automatisation, agent IA : version restaurant (Reel, 21/10)
@@ -44,7 +48,7 @@ Chaque sujet = un problème concret du métier + l'action à faire + les outils.
 ## Preuve (un contenu par semaine, le mercredi — voir kit/strategie/STRATEGIE.md)
 - [ ] Objection : « Je n'ai pas le temps de m'occuper de ça »
 - [x] Objection : « C'est trop technique pour moi » (carrousel preuve, 25/11)
-- [ ] Objection : « Mes clients vont sentir que c'est un robot »
+- [x] Objection : « Mes clients vont sentir que c'est un robot » (carrousel preuve, 02/12)
 - [ ] Coulisses : une automatisation montée par Yohan, étape par étape (capture réelle à fournir)
 - [ ] Une question réellement posée par un gérant cette semaine (à fournir par Yohan)
 
