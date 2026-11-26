@@ -1,0 +1,12 @@
+{
+ "name": "2026-12-02_story_message-automatique",
+ "bg": "../../../kit/brand/story-bg/avatar-espresso-bar.jpg",
+ "tag": "Petite confidence ☕",
+ "lines": [
+  "Un message automatique,",
+  "ça te dérange quand",
+  "c'est toi le client ?"
+ ],
+ "hl": "automatique",
+ "foot": "Réponds-moi en message 👇"
+}

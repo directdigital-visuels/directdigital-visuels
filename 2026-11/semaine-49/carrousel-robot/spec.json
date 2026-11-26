@@ -1,0 +1,81 @@
+{
+ "name": "2026-12-02_carrousel_robot",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Objection fréquente",
+   "title": "« Mes clients vont sentir <span class=\"hl\">que c'est un robot</span> »",
+   "lead": "Une crainte légitime. Voici comment je l'évite, concrètement, à chaque mise en place."
+  },
+  {
+   "type": "text",
+   "kicker": "D'abord",
+   "title": "Ce qui fait « robot », ce n'est pas l'outil",
+   "body": "C'est un message générique, envoyé au mauvais moment, sans personne derrière quand le client répond. Les trois se corrigent."
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Règle 1 · Tes mots",
+   "title": "Les messages sont écrits avec toi",
+   "problem": "un texte standard qui ne te ressemble pas.",
+   "actions": [
+    "On part de tes vrais messages : ton « tu » ou ton « vous », tes formules",
+    "Ton prénom en signature",
+    "L'IA propose, tu valides chaque modèle avant le lancement"
+   ],
+   "tools": [
+    "ChatGPT ou Claude"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Règle 2 · Le bon périmètre",
+   "title": "On automatise la logistique, pas la relation",
+   "problem": "tout envoyer en automatique, même ce qui est délicat.",
+   "actions": [
+    "Automatique : confirmation, rappel, horaires, accès",
+    "Jamais automatique : réclamation, geste commercial, allergie",
+    "Un message par étape, pas de relance en boucle"
+   ],
+   "tools": [
+    "Make ou n8n"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Règle 3 · Quelqu'un derrière",
+   "title": "Dès que le client répond, c'est toi",
+   "problem": "une réponse qui tombe dans le vide.",
+   "actions": [
+    "Chaque réponse d'un client arrive dans ta boîte mail",
+    "Un mot inquiétant (« déçu », « rembourser ») : alerte sur ton téléphone",
+    "Tu reprends la main quand tu veux"
+   ],
+   "tools": [
+    "Gmail ou Outlook",
+    "Make"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Avant chaque lancement",
+   "title": "Je relis chaque message <span class=\"hl\">comme si j'étais ton client</span>",
+   "body": "S'il sonne faux, on le réécrit. Et tu peux mettre l'automatisation en pause à tout moment."
+  },
+  {
+   "type": "cta",
+   "kicker": "À garder",
+   "title": "3 règles pour qu'une automatisation ne sonne pas robot",
+   "lead": "Garde-les sous la main avant de lancer la tienne.",
+   "action": "Enregistre ce post"
+  }
+ ]
+}

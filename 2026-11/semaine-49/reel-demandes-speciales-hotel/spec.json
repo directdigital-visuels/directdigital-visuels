@@ -1,0 +1,96 @@
+{
+ "name": "2026-12-03_reel_demandes-speciales-hotel",
+ "audio": true,
+ "cover": {
+  "kicker": "Petits hôtels",
+  "title": "Lit bébé, arrivée tardive… <span>plus rien d'oublié.</span>",
+  "tags": [
+   "Make ou n8n + IA",
+   "Niveau avancé"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "dur": 3.0,
+   "src": "../../../kit/brand/story-bg/bg_bar.jpg",
+   "tag": "Petit hôtel, 7 h du matin",
+   "lines": [
+    "Lit bébé, arrivée tardive…",
+    "*noyés dans tes e-mails*"
+   ]
+  },
+  {
+   "type": "hook",
+   "dur": 2.4,
+   "kicker": "Petits hôtels",
+   "lines": [
+    "Plus aucune demande",
+    "oubliée"
+   ]
+  },
+  {
+   "type": "notif",
+   "dur": 4.4,
+   "title": "Les demandes *arrivent*",
+   "notifs": [
+    {
+     "app": "Gmail",
+     "title": "Arrivée vers 23 h, c'est possible ?",
+     "text": "Réservation du 12/03 (exemple fictif)",
+     "time": "06:51"
+    },
+    {
+     "app": "Gmail",
+     "title": "Un lit bébé dans la chambre ?",
+     "text": "Séjour du 14/03 (exemple fictif)",
+     "time": "07:05"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "dur": 6.0,
+   "theme": "light",
+   "kicker": "Niveau avancé · Make ou n8n",
+   "title": "L'IA *range* chaque demande",
+   "items": [
+    "Elle lit les e-mails de réservation (ou ton logiciel, s'il le permet)",
+    "Elle classe : chambre, arrivée, occasion spéciale",
+    "Elle l'ajoute au tableau « Demandes du jour »",
+    "Santé, allergies : jamais traitées seules, alerte directe"
+   ]
+  },
+  {
+   "type": "compare",
+   "dur": 4.6,
+   "title": "Avant, *après*",
+   "left": {
+    "label": "Avant",
+    "items": [
+     "La demande dort dans un e-mail",
+     "Tu y penses… ou pas",
+     "Le client arrive, rien n'est prêt"
+    ]
+   },
+   "right": {
+    "label": "Après",
+    "items": [
+     "Elle est dans le tableau",
+     "L'équipe la voit à 8 h",
+     "Tu confirmes au client"
+    ]
+   }
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Ton client se sent attendu,",
+    "*pas oublié.*"
+   ],
+   "cta": "Envoie-le à un hôtelier",
+   "cta_icon": "send"
+  }
+ ]
+}

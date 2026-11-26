@@ -1,0 +1,12 @@
+{
+ "name": "2026-12-04_story_factures",
+ "bg": "../../../kit/brand/story-bg/chef-au-telephone-cuisine.jpg",
+ "tag": "Question du soir 👀",
+ "lines": [
+  "Tes factures fournisseurs,",
+  "tu les vérifies",
+  "ligne par ligne ?"
+ ],
+ "hl": "ligne par ligne",
+ "foot": "Réponds-moi en message 👇"
+}

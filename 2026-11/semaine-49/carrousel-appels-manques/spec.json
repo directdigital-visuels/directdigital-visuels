@@ -1,0 +1,84 @@
+{
+ "name": "2026-11-30_carrousel_appels-manques",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Restaurants, cafés, bars",
+   "title": "Le téléphone sonne en plein service. <span class=\"hl\">Personne ne décroche.</span>",
+   "lead": "Un SMS part tout seul, l'appel arrive sur ta liste à rappeler. Automatisation de niveau intermédiaire."
+  },
+  {
+   "type": "text",
+   "kicker": "Le problème",
+   "title": "Un appel manqué, c'est peut-être une table partie ailleurs",
+   "body": "À 20 h, tu as les mains dans le service. Le client tombe sur la sonnerie et raccroche. Après la fermeture, tu retrouves une liste de numéros inconnus sans savoir lesquels rappeler."
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Étape 1 · Le déclencheur",
+   "title": "L'appel manqué est détecté",
+   "problem": "personne ne peut décrocher pendant le coup de feu.",
+   "actions": [
+    "Tes appels passent par un standard téléphonique virtuel (offre payante)",
+    "À chaque appel manqué, il envoie un signal à Make",
+    "À vérifier d'abord : ton standard sait-il le faire ?"
+   ],
+   "tools": [
+    "Standard virtuel",
+    "Make"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Étape 2 · Les règles",
+   "title": "Make trie avant d'agir",
+   "problem": "tous les appels ne méritent pas un SMS.",
+   "actions": [
+    "Seulement pendant tes horaires de service",
+    "Numéro masqué ou fournisseur connu : pas de SMS",
+    "Un seul SMS par numéro et par jour"
+   ],
+   "tools": [
+    "Make",
+    "Google Sheets"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Étape 3 · L'action",
+   "title": "Un SMS part, une ligne s'ajoute",
+   "problem": "le client attend une réponse, toi tu as les mains prises.",
+   "actions": [
+    "SMS : « On est en plein service. Réservez ici : [lien], ou on vous rappelle après le service. »",
+    "Le numéro et l'heure s'ajoutent à la liste « À rappeler »",
+    "Envoi par un service SMS payant (Brevo, ou ton standard s'il le propose)"
+   ],
+   "tools": [
+    "Make",
+    "Service SMS",
+    "Google Sheets"
+   ],
+   "level": "Intermédiaire"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Ce qui reste humain",
+   "title": "Le SMS fait patienter, <span class=\"hl\">c'est toi qui rappelles</span>",
+   "body": "Un groupe, une allergie, un client mécontent : ça se règle de vive voix. La liste te dit qui rappeler, tu coches quand c'est fait."
+  },
+  {
+   "type": "cta",
+   "kicker": "À partager",
+   "title": "Tu connais un restaurateur qui laisse sonner le soir ?",
+   "lead": "Envoie-lui la méthode, il la lira à la pause.",
+   "action": "Envoie ce post"
+  }
+ ]
+}

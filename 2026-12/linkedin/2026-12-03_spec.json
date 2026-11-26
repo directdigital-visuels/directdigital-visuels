@@ -1,0 +1,17 @@
+{
+ "name": "2026-12-03_linkedin_demandes-speciales",
+ "format": "post",
+ "slides": [
+  {
+   "type": "ask",
+   "kicker": "Hôtels indépendants · Niveau avancé",
+   "title": "Lit bébé, arrivée tardive…<br><span class=\"hl\">plus aucune demande oubliée</span>",
+   "chips": [
+    "L'IA repère la demande dans l'e-mail",
+    "Elle l'ajoute au tableau du jour",
+    "Votre équipe la voit à 8 h"
+   ],
+   "action": "Une automatisation relue par vous"
+  }
+ ]
+}

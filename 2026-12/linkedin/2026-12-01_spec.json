@@ -1,0 +1,17 @@
+{
+ "name": "2026-12-01_linkedin_reveillon-acompte",
+ "format": "post",
+ "slides": [
+  {
+   "type": "ask",
+   "kicker": "Restaurants indépendants · Niveau intermédiaire",
+   "title": "Réveillon : l'acompte<br><span class=\"hl\">se gère tout seul</span>",
+   "chips": [
+    "Le lien d'acompte part après la demande",
+    "Acompte reçu : la table est confirmée",
+    "Annulations, remboursements : vous décidez"
+   ],
+   "action": "Une automatisation, vos conditions"
+  }
+ ]
+}

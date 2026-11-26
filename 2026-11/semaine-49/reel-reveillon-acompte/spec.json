@@ -1,0 +1,102 @@
+{
+ "name": "2026-12-01_reel_reveillon-acompte",
+ "audio": true,
+ "cover": {
+  "kicker": "Restaurants · Réveillon",
+  "title": "Réveillon complet… <span>et vraiment présent.</span>",
+  "tags": [
+   "Lien d'acompte + Make",
+   "Niveau intermédiaire"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "dur": 3.0,
+   "src": "../../../kit/brand/story-bg/chef-au-telephone-cuisine.jpg",
+   "tag": "Restaurant, début décembre",
+   "lines": [
+    "Réveillon complet…",
+    "*et des tables vides le 31*"
+   ]
+  },
+  {
+   "type": "hook",
+   "dur": 2.4,
+   "kicker": "Restaurants",
+   "lines": [
+    "L'acompte",
+    "se gère tout seul"
+   ]
+  },
+  {
+   "type": "notif",
+   "dur": 4.6,
+   "title": "La réservation *se confirme*",
+   "notifs": [
+    {
+     "app": "Formulaire",
+     "title": "Réveillon : 4 personnes, 31/12",
+     "text": "Demande reçue (exemple fictif)",
+     "time": "16:12"
+    },
+    {
+     "app": "Paiement",
+     "title": "Acompte reçu",
+     "text": "Table confirmée (exemple fictif)",
+     "time": "16:20"
+    },
+    {
+     "app": "Gmail",
+     "title": "Confirmation envoyée",
+     "text": "Avec tes conditions d'annulation",
+     "time": "16:20"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "dur": 6.0,
+   "theme": "light",
+   "kicker": "Niveau intermédiaire · Make",
+   "title": "Les *règles*",
+   "items": [
+    "Ton logiciel de réservation gère l'acompte ? Commence par là",
+    "Sinon : formulaire, puis lien de paiement (Stripe, SumUp…, frais par paiement)",
+    "Acompte reçu : table confirmée dans Google Sheets",
+    "Rappel automatique 2 jours avant"
+   ]
+  },
+  {
+   "type": "compare",
+   "dur": 4.8,
+   "title": "Ce qui *reste à toi*",
+   "left": {
+    "label": "L'automatisation",
+    "items": [
+     "Envoie le lien",
+     "Confirme la table",
+     "Envoie le rappel"
+    ]
+   },
+   "right": {
+    "label": "Toi",
+    "items": [
+     "Tu fixes le montant",
+     "Tu gères les annulations",
+     "Tu notes les allergies"
+    ]
+   }
+  },
+  {
+   "type": "end",
+   "dur": 4.0,
+   "lines": [
+    "Ton réveillon complet,",
+    "*et vraiment présent.*"
+   ],
+   "cta": "Envoie-le à un restaurateur",
+   "cta_icon": "send"
+  }
+ ]
+}

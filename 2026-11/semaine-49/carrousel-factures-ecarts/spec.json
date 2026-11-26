@@ -1,0 +1,83 @@
+{
+ "name": "2026-12-04_carrousel_factures-ecarts",
+ "format": "post",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Restaurants et cafés · Démonstration",
+   "title": "Factures fournisseurs : <span class=\"hl\">les écarts te sautent aux yeux</span>",
+   "lead": "Démonstration d'une automatisation avancée que je mets en place. Exemple fictif."
+  },
+  {
+   "type": "text",
+   "kicker": "Le problème",
+   "title": "Tu paies ce qui est facturé, pas forcément ce qui est livré",
+   "body": "Une caisse manquante, un prix qui a bougé, un avoir jamais reçu. Vérifier chaque ligne à la main, personne n'a le temps en décembre."
+  },
+  {
+   "type": "task",
+   "n": 1,
+   "label": "Étape 1 · Le déclencheur",
+   "title": "La facture arrive, elle est lue",
+   "problem": "les factures s'empilent dans la boîte mail.",
+   "actions": [
+    "La facture PDF arrive dans un dossier e-mail dédié",
+    "L'IA en extrait les lignes : produit, quantité, prix",
+    "À la livraison, tu notes ce qui manque sur ton téléphone"
+   ],
+   "tools": [
+    "Gmail ou Outlook",
+    "ChatGPT ou Claude",
+    "Make ou n8n"
+   ],
+   "level": "Avancé"
+  },
+  {
+   "type": "task",
+   "n": 2,
+   "label": "Étape 2 · Les règles",
+   "title": "Trois comparaisons automatiques",
+   "problem": "un écart se cache vite dans une longue facture.",
+   "actions": [
+    "Quantité facturée ≠ quantité livrée",
+    "Prix unitaire ≠ prix de ta dernière commande",
+    "Avoir noté dans le tableau, absent de la facture"
+   ],
+   "tools": [
+    "Google Sheets"
+   ],
+   "level": "Avancé"
+  },
+  {
+   "type": "task",
+   "n": 3,
+   "label": "Étape 3 · L'action",
+   "title": "Seuls les écarts remontent",
+   "problem": "relire des factures justes, c'est du temps perdu.",
+   "actions": [
+    "La ligne passe en rouge dans Google Sheets",
+    "Un e-mail te liste les écarts à vérifier, rien d'autre",
+    "Un brouillon de message au fournisseur t'attend"
+   ],
+   "tools": [
+    "Make ou n8n",
+    "Gmail ou Outlook"
+   ],
+   "level": "Sur mesure"
+  },
+  {
+   "type": "text",
+   "dark": true,
+   "kicker": "Ce qui reste humain",
+   "title": "L'IA repère, <span class=\"hl\">toi tu tranches</span>",
+   "body": "Une erreur de lecture, ça arrive : tu vérifies chaque écart avant de contacter le fournisseur. Rien n'est payé ni envoyé automatiquement."
+  },
+  {
+   "type": "cta",
+   "kicker": "Pour ton établissement",
+   "title": "Tu veux contrôler tes factures sans y passer tes soirées ?",
+   "lead": "Écris-moi en message privé, c'est moi, Yohan, qui réponds. On regarde si ça vaut le coup chez toi : parfois, la réponse est non.",
+   "action": "Écris-moi en message privé"
+  }
+ ]
+}
